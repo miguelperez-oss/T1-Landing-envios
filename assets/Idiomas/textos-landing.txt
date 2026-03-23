@@ -1,0 +1,415 @@
+================================================================================
+TEXTOS DE LA LANDING PAGE — T1 ENVÍOS
+Extraídos de: index.html
+================================================================================
+
+
+────────────────────────────────────────
+1. HEADER (Navegación)
+────────────────────────────────────────
+
+Nav links:
+- Ecosistema
+- ¿Qué es T1Envios?
+- Iniciar sesión
+- Comenzar gratis
+
+Menú móvil:
+- Ecosistema
+- ¿Qué es T1Envios?
+- Iniciar sesión
+- Comenzar ahora
+
+
+────────────────────────────────────────
+2. HERO
+────────────────────────────────────────
+
+H1: Todos tus envíos.
+    Un solo lugar.
+    Las mejores tarifas.
+
+Descripción: Cotiza, envía y entrega con la mejor experiencia del mercado.
+
+CTA: Comenzar ahora
+
+Stats:
+- +40 millones de envíos entregados
+- +25,000 negocios
+
+Panel cotizador (hero):
+  Encabezado: Grupo ampm
+  Guía: FedEx : 77452320977452
+  No. de pedido: 774523209
+  1 pieza · 0.5 kg
+
+  Columnas: Paquetería | Fecha estimada | Ventajas
+
+  FedEx     Mismo día · 24H    24 de ene    Más rápido    $1––    Crear envío
+  UPS       Económico · 2Días  26 de ene    Mejor servicio $168   Crear envío
+  DHL       Mismo día · 2Hrs   2 de feb     Mejor servicio $168   Crear envío
+  AMPM      Estándar           5 de feb                    $142   Crear envío
+  Paquetexpress  Estándar      6 de feb                    $138   Crear envío
+
+Logos orbitales (paqueterías): UPS, FedEx, DHL, AMPM, 99 Minutos, J&T, Paquetexpress
+
+
+────────────────────────────────────────
+3. MARCAS MARQUEE (Trust logos)
+────────────────────────────────────────
+
+Texto: Con la confianza de más de 25,000 negocios de todos los tamaños
+
+Logos (grayscale):
+- Círculo de Crédito
+- Claro
+- Estée Lauder
+- Plata
+- Sears
+- Telcel
+
+
+────────────────────────────────────────
+4. SECTION CARDS (Servicios principales)
+────────────────────────────────────────
+
+H2: Simplifica tus envíos con T1 Envíos
+Descripción: Gestiona cotizaciones, envíos y seguimiento de todas tus paqueterías desde una única plataforma web.
+
+Card 1 — Cotiza
+  Descubre y compara las mejores tarifas y tiempos de entrega entre las mejores paqueterías.
+  CTA: Cotiza ahora
+
+Card 2 — Envía
+  Genera guías de envío a todo México, crea plantillas predeterminadas de tus paquetes y solicita recolección a tu almacén.
+  CTA: Realiza un envío
+
+Card 3 — Seguimiento
+  Conoce la ubicación de tus paquetes en todo momento, realiza el seguimiento de incidencias y dales solución desde T1.
+  CTA: Rastrea un envío
+
+
+────────────────────────────────────────
+5. INTEGRA CANALES (#marcas-t1)
+────────────────────────────────────────
+
+H2: Integra tus canales de venta y automatiza tus envíos.
+Descripción: Sincroniza pedidos, direcciones y estados de envío con T1tiendas, Sears, Sanborns, Shopify, Mercado Libre, Amazon, Shein y más. Tus pedidos se actualizan automáticamente y tus guías se generan en segundos.
+
+CTA: Comenzar ahora
+
+Logos flotantes (marketplaces):
+- T1tienda
+- Shein
+- TikTok Shop
+- Sears
+- AliExpress
+- Shopify
+- Coppel
+- Mercado Libre
+- Amazon
+- Walmart
+- WooCommerce
+- Cloud
+- Sanborns
+- Wix
+
+
+────────────────────────────────────────
+6. TARIFAS (#tarifas)
+────────────────────────────────────────
+
+H2: Compara tarifas, ventajas y tiempos de entrega de todos tus envíos.
+Descripción: Calcula, elige y crea tu envío al instante, todo desde un mismo lugar.
+
+CTA: Cotizar ahora
+
+Tabs: Cotizador | Recolección | Mis envíos
+
+--- Slide 1: Cotizador ---
+  URL mockup: app.t1envios.com/cotizar
+  Título: Cotizador — Resultados para CDMX → MTY, 2kg
+
+  DHL       DHL Express        1–2 días hábiles    Más rápido    $149    Crear envío
+  FedEx     FedEx Standard     2–3 días hábiles    Mejor precio  $89     Crear envío
+  UPS       UPS Ground         3–4 días hábiles                  $95     Crear envío
+  99        99 Minutos Express Same day                          $185    Crear envío
+
+--- Slide 2: Recolección ---
+  Título: Crear recolección — Horario confirmado
+
+  Paquetería: FedEx Standard
+  Fecha: Hoy, 14:00–18:00
+  Dirección: Insurgentes 100, CDMX
+  Estado: Confirmado ✓
+  ✓ El mensajero estará en tu dirección de 14:00 a 18:00 hrs.
+
+--- Slide 3: Mis envíos ---
+  Título: Mis envíos — Últimas guías
+
+  1Z999AA10123456784    DHL · Entregado hoy 10:32am         Entregado
+  794658401724          FedEx · En camino                    En tránsito
+  1ZA765780190025213    UPS · En sucursal origen             Recolectado
+  9400111899223397988   99 Minutos · Pendiente               Pendiente
+
+
+────────────────────────────────────────
+7. REPORTES (#reportes)
+────────────────────────────────────────
+
+H2: Visualiza mejores reportes para tomar mejores decisiones.
+Descripción: Visualiza en tiempo real el estado de tus envíos, costos y desempeño de las paqueterías. Convierte tus datos en decisiones más rentables.
+
+CTA: Comenzar ahora
+
+Tabs: Reportes | Incidencias
+
+--- Tab 1: Reportes ---
+  URL mockup: app.t1envios.com/reportes
+  Título: Dashboard de Reportes — Julio 2025
+
+  Envíos este mes: 3,482
+  Costo promedio/envío: $87
+  Tasa de entrega: 96.4%
+  Ahorro vs. mostrador: $14,280
+  +12% vs mes anterior
+
+--- Tab 2: Incidencias ---
+  Título: Gestión de Incidencias — 8 activas
+
+  📦 Sin movimiento — DHL #4829       CDMX · 3 días sin actualización     En revisión
+  ❌ Dirección incorrecta — FedEx #7103 MTY · Requiere corrección          Urgente
+  ✓  Reentrega exitosa — UPS #5512     GDL · Solucionada hoy              Resuelta
+  🔍 Paquete extraviado — 99min #2291  CDMX · Investigación abierta       En proceso
+
+
+────────────────────────────────────────
+8. SEGUIMIENTO (#seguir)
+────────────────────────────────────────
+
+H2: Sigue tus envíos fácil y rápido.
+Descripción: Monitorea tus entregas desde un solo panel y recibe avisos automáticos sobre el estado de cada paquete. Siempre sabrás dónde está y cuándo llega.
+
+Bullets:
+- Monitorea entregas en tiempo real desde tu panel.
+- Recibe alertas automáticas por retrasos o entregas completadas.
+- Mantén a tus clientes informados sin hacer seguimiento manual.
+
+CTA: Comenzar ahora
+
+Mockup tracking list:
+  URL: app.t1envios.com/rastreo
+
+  794658401724        FedEx    Entregado · Hoy 10:32am           Entregado
+  1Z999AA101234567    UPS      En camino · Llegará hoy           En tránsito
+  2849582019202       DHL      Recolectado · 08:15am             Recolectado
+  9400118999223       99min    Pendiente recolección             Pendiente
+  483920192001        AMPM     Entregado · Ayer 14:05pm          Entregado
+  7029384756291       FedEx    En distribución · GDL             En tránsito
+
+  (Lista se repite en scroll continuo)
+
+
+────────────────────────────────────────
+9. RECARGAS (#recarga)
+────────────────────────────────────────
+
+H2: Recarga fácil y empieza a enviar hoy mismo
+Descripción: Carga saldo con tu tarjeta o transferencia SPEI y paga tus envíos en segundos. Control total, sin costos extras ni procesos complicados.
+
+Bullets:
+- Añade saldo fácilmente con tarjeta de crédito/débito o por SPEI.
+- Activa la recarga automática y asegúrate de que tus envíos nunca se detengan.
+- Recibe comprobantes y reportes automáticos de cada transacción.
+
+CTA: Comenzar ahora
+
+Mockup recarga (3 pasos):
+  URL: app.t1envios.com/recargas
+
+  Paso 1 — Selecciona monto:
+    Título: Recargar saldo — Selecciona monto
+    Opciones: $500 | $1,000 | $2,000 | $5,000 | Otro monto…
+    Métodos: Tarjeta | SPEI
+
+  Paso 2 — Procesando:
+    Procesando pago…
+    $500 MXN · Tarjeta terminada en 4242
+
+  Paso 3 — Confirmación:
+    ¡Recarga exitosa!
+    +$500 MXN añadidos a tu saldo
+    Saldo actual: $1,847 MXN
+
+
+────────────────────────────────────────
+10. SERVICIOS FINALES (Ecosistema T1)
+────────────────────────────────────────
+
+H2: Vende, cobra y envía en un solo lugar
+Descripción: Tú te enfocas en vender y T1 te ayuda con tu tienda, tus envíos y tus pagos.
+
+Card 1 — T1tienda
+  Comienza a vender en marketplaces y conecta más de 10 canales en un solo lugar.
+  Features:
+  - Diseño de tienda con IA
+  - Gestiona inventarios y precios
+  - Reportes detallados
+  CTA: Crear mi tienda
+
+Card 2 — T1pagos
+  Recibe pagos de forma rápida y segura con tarjetas, transferencias y más.
+  Features:
+  - Link de pago
+  - Panel de contracargos
+  - Ofrece meses sin intereses
+  CTA: Crear link de pago
+
+Card 3 — T1envíos
+  Envía a todo México con las mejores paqueterías y los mejores precios.
+  Features:
+  - Cotiza y crea guías de envío
+  - Rastreo en tiempo real
+  - Administra tus incidencias
+  CTA: Cotizar envío
+
+
+────────────────────────────────────────
+11. NUESTROS CLIENTES (#clientes)
+────────────────────────────────────────
+
+H2: Casos de éxito de clientes.
+Descripción: Con T1, comercios de distintos tamaños simplifican su operación y venden más.
+
+Card: Reebok
+  Stat: +300% en ventas anuales
+  Texto: Reebok redujo 45% sus costos logísticos al integrar T1envíos.
+
+Card: BZPAY
+  Stat: +500k transacciones evaluadas
+  Texto: BZPAY mejoró su sistema de prevención de fraudes con T1score.
+
+Card: PASE
+  Stat: +500k transacciones evaluadas al mes
+  Texto: PASE optimiza su operación con T1score.
+
+Card: Chicos Olé
+  Stat: +65% en ventas ecommerce
+  Texto: Chicos Olé escaló su ecommerce con T1tienda.
+
+Card: Tekknoshop
+  Stat: +7,000 pedidos sincronizados
+  Texto: Tekknoshop atiende pedidos 60% más rápido con T1tienda.
+
+Card: Mercadazo
+  Stat: +500 vendedores integrados
+  Texto: Mercadazo optimizó su logística con T1envíos.
+
+Card: Doto
+  Stat: +300% crecimiento anual
+  Texto: Doto escaló su ecommerce con T1envíos.
+
+Card: FILA
+  Stat: -45% en tiempos de procesamiento
+  Texto: FILA optimizó su logística con T1envíos.
+
+Card: Sanborns
+  Stat: +85% aprobación en pagos
+  Texto: Sanborns redujo contracargos a 0.3% con T1score.
+
+Card: Ticketopolis
+  Stat: 99% de aprobación antifraude
+  Texto: Ticketopolis asegura sus pagos con T1score.
+
+Card: Cruz Azul
+  Stat: +50,000 ventas integradas
+  Texto: Cruz Azul integró toda su operación con T1.
+
+Card: DecoHome
+  Stat: +200 SKUs publicados en 6 canales
+  Texto: DecoHome gestiona su operación como un equipo 10x más grande.
+
+Card: Sesén
+  Stat: +280% visitas en tienda
+  Texto: Sesén escaló su ecommerce con T1tienda.
+
+Card: Sears
+  Stat: +90% aprobación en pagos
+  Texto: Sears potencia su operación con T1pagos.
+
+Card: Telcel
+  Stat: +15% en recargas autorizadas
+  Texto: Telcel optimizó sus canales digitales con T1pagos.
+
+Card: Pirma
+  Stat: +40% entregas exitosas
+  Texto: Pirma agilizó su distribución con T1envíos.
+
+
+────────────────────────────────────────
+12. FAQ (#faq)
+────────────────────────────────────────
+
+H2: Preguntas Frecuentes
+Descripción: Transparente, directo y confiable, como nuestra plataforma. Aquí tienes respuestas rápidas sobre envíos, tarifas y más.
+
+P: ¿Qué es T1 Envíos y cómo funciona?
+R: T1 Envíos es una plataforma para cotizar, comparar y enviar desde un solo lugar con paqueterías líderes y tarifas competitivas. En minutos creas tu cuenta y puedes administrar toda tu operación: guías, recolecciones, seguimiento, incidencias y reportes.
+
+P: ¿Necesito tener una tienda en línea para usar T1 Envíos?
+R: No. Puedes usar T1 Envíos aunque vendas desde tienda física, por WhatsApp, Instagram o marketplaces. Y si ya tienes tienda en línea, también puedes integrarlo para centralizar tus envíos.
+
+P: ¿Con qué paqueterías puedo enviar?
+R: T1 Envíos se conecta con paqueterías líderes para que compares tarifas y tiempos de entrega desde el mismo panel: UPS, DHL, FedEx, 99minutos y ampm.
+
+P: ¿Qué información necesito para cotizar un envío?
+R: Solo necesitas: código postal de origen, código postal de destino, peso y medidas del paquete.
+
+P: ¿Cómo funciona el pago de mis guías?
+R: Funciona con saldo prepago. Depositas saldo a tu cuenta vía transferencia SPEI o tarjeta de crédito/débito. El saldo no tiene vigencia y se va descontando conforme compras guías.
+
+P: ¿Dónde entrego mis paquetes?
+R: Depende del servicio y la paquetería. Puedes entregar tu paquete en la sucursal más cercana o, si está disponible, solicitar recolección a domicilio con la paquetería.
+
+P: ¿Puedo facturar mis envíos?
+R: Sí. Puedes solicitar tu factura desde tu cuenta con tus datos fiscales.
+
+
+────────────────────────────────────────
+13. FOOTER CTA
+────────────────────────────────────────
+
+H2: ¿Listo para optimizar tus envíos con T1?
+Descripción: Centraliza, automatiza y entrega con la plataforma logística más completa del ecosistema T1.
+
+CTA: Comienza ahora
+
+
+────────────────────────────────────────
+14. FOOTER
+────────────────────────────────────────
+
+Columna 1 — Soluciones:
+- T1tienda
+- T1pagos
+- T1envíos
+- T1score
+
+Columna 2 — T1:
+- ¿Qué es T1?
+- Carreras
+- Prensa
+- Contacto
+
+Locale: 🇲🇽 México (Español)
+
+Links legales:
+- Términos y condiciones
+- Privacidad
+
+Copyright: © 2025 T1. Todos los derechos reservados.
+
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================

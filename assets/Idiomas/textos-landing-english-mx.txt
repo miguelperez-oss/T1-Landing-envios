@@ -1,0 +1,469 @@
+================================================================================
+LANDING PAGE COPY — T1 ENVÍOS
+Version: ENGLISH 🇺🇸 — Mexico market (direct translation only)
+Based on: textos-landing.txt (Mexico 🇲🇽 original)
+
+Rules applied:
+  ✓ Direct English translation of all copy
+  ✗ NO changes to geography (CDMX, MTY, GDL, etc.)
+  ✗ NO changes to carriers (FedEx, UPS, DHL, AMPM, 99 Minutos, J&T, Paquetexpress)
+  ✗ NO changes to brands or client names
+  ✗ NO changes to payment methods (SPEI stays as SPEI)
+  ✗ NO changes to amounts or currency (MXN stays as MXN)
+  ✗ NO changes to marketplaces (Sears, Sanborns, Coppel, etc.)
+================================================================================
+
+
+────────────────────────────────────────
+1. HEADER (Navigation)
+────────────────────────────────────────
+
+Nav links:
+- Ecosystem
+- What is T1 Shipping?
+- Log in
+- Start for free
+
+Mobile menu:
+- Ecosystem
+- What is T1 Shipping?
+- Log in
+- Get started
+
+
+────────────────────────────────────────
+2. HERO
+────────────────────────────────────────
+
+H1: All your shipments.
+    One single place.
+    The best rates.
+
+Description: Quote, ship, and deliver with the best experience on the market.
+
+CTA: Get started
+
+Stats:
+- 40M+ shipments delivered
+- 25,000+ businesses
+
+Hero quoter panel:
+  Header: Grupo ampm
+  Tracking #: FedEx: 77452320977452
+  Order #: 774523209
+  1 piece · 0.5 kg
+
+  Columns: Carrier | Estimated date | Highlights
+
+  FedEx          Same day · 24H    Jan 24    Fastest         $1––    Create shipment
+  UPS            Economy · 2 Days  Jan 26    Best service    $168    Create shipment
+  DHL            Same day · 2Hrs   Feb 2     Best service    $168    Create shipment
+  AMPM           Standard          Feb 5                     $142    Create shipment
+  Paquetexpress  Standard          Feb 6                     $138    Create shipment
+
+Orbital logos (carriers): UPS, FedEx, DHL, AMPM, 99 Minutos, J&T, Paquetexpress
+
+
+────────────────────────────────────────
+3. TRUST MARQUEE
+────────────────────────────────────────
+
+Copy: Trusted by 25,000+ businesses of all sizes
+
+Logos (grayscale):
+- Círculo de Crédito
+- Claro
+- Estée Lauder
+- Plata
+- Sears
+- Telcel
+
+
+────────────────────────────────────────
+4. SECTION CARDS (Main services)
+────────────────────────────────────────
+
+H2: Simplify your shipping with T1 Shipping
+
+Description: Manage quotes, shipments, and tracking for all your carriers
+             from a single web platform.
+
+Card 1 — Quote
+  Discover and compare the best rates and delivery times
+  across the top carriers.
+  CTA: Quote now
+
+Card 2 — Ship
+  Generate shipping labels anywhere in Mexico, create
+  saved package templates, and schedule pickups
+  from your warehouse.
+  CTA: Create a shipment
+
+Card 3 — Track
+  Know where your packages are at all times, manage
+  your incidents, and resolve them directly from T1.
+  CTA: Track a shipment
+
+
+────────────────────────────────────────
+5. INTEGRATE CHANNELS (#marcas-t1)
+────────────────────────────────────────
+
+H2: Connect your sales channels and automate your shipments.
+
+Description: Sync orders, addresses, and shipment statuses with T1 Store,
+             Sears, Sanborns, Shopify, Mercado Libre, Amazon, Shein, and more.
+             Your orders update automatically and your labels
+             are generated in seconds.
+
+CTA: Get started
+
+Floating logos (marketplaces):
+- T1 Store
+- Shein
+- TikTok Shop
+- Sears
+- AliExpress
+- Shopify
+- Coppel
+- Mercado Libre
+- Amazon
+- Walmart
+- WooCommerce
+- Cloud
+- Sanborns
+- Wix
+
+
+────────────────────────────────────────
+6. RATES (#tarifas)
+────────────────────────────────────────
+
+H2: Compare rates, features, and delivery times for all your shipments.
+
+Description: Calculate, choose, and create your shipment instantly —
+             all in one place.
+
+CTA: Get a quote
+
+Tabs: Quote | Pickup | My Shipments
+
+--- Slide 1: Quote ---
+  URL mockup: app.t1envios.com/cotizar
+  Title: Quote — Results for CDMX → MTY, 2kg
+
+  DHL       DHL Express        1–2 business days    Fastest       $149    Create shipment
+  FedEx     FedEx Standard     2–3 business days    Best price    $89     Create shipment
+  UPS       UPS Ground         3–4 business days                  $95     Create shipment
+  99        99 Minutos Express Same day                           $185    Create shipment
+
+--- Slide 2: Pickup ---
+  Title: Schedule Pickup — Confirmed
+
+  Carrier: FedEx Standard
+  Date: Today, 14:00–18:00
+  Address: Insurgentes 100, CDMX
+  Status: Confirmed ✓
+  ✓ Your courier will arrive at your address between 14:00 and 18:00 hrs.
+
+--- Slide 3: My Shipments ---
+  Title: My Shipments — Recent Labels
+
+  1Z999AA10123456784    DHL · Delivered today at 10:32am          Delivered
+  794658401724          FedEx · In transit                         In transit
+  1ZA765780190025213    UPS · Picked up at origin                  Picked up
+  9400111899223397988   99 Minutos · Pending                       Pending
+
+
+────────────────────────────────────────
+7. REPORTS (#reportes)
+────────────────────────────────────────
+
+H2: Better reports for smarter decisions.
+
+Description: Track your shipment status, carrier performance, and costs in real
+             time. Turn your data into more profitable decisions.
+
+CTA: Get started
+
+Tabs: Reports | Incidents
+
+--- Tab 1: Reports ---
+  URL mockup: app.t1envios.com/reportes
+  Title: Reports Dashboard — July 2025
+
+  Shipments this month: 3,482
+  Avg. cost per shipment: $87
+  Delivery success rate: 96.4%
+  Savings vs. counter rate: $14,280
+  +12% vs. last month
+
+--- Tab 2: Incidents ---
+  Title: Incident Management — 8 active
+
+  📦 No movement — DHL #4829          CDMX · 3 days without update      Under review
+  ❌ Wrong address — FedEx #7103       MTY · Correction required          Urgent
+  ✓  Re-delivery successful — UPS #5512  GDL · Resolved today            Resolved
+  🔍 Lost package — 99min #2291        CDMX · Investigation open         In progress
+
+
+────────────────────────────────────────
+8. TRACKING (#seguir)
+────────────────────────────────────────
+
+H2: Track your shipments, fast and easy.
+
+Description: Monitor your deliveries from a single dashboard and receive
+             automatic alerts on every package status. You'll always know
+             where it is and when it arrives.
+
+Bullets:
+- Monitor deliveries in real time from your dashboard.
+- Get automatic alerts for delays or completed deliveries.
+- Keep your customers informed without manual follow-up.
+
+CTA: Get started
+
+Mockup tracking list:
+  URL: app.t1envios.com/rastreo
+
+  794658401724        FedEx    Delivered · Today 10:32am          Delivered
+  1Z999AA101234567    UPS      In transit · Arriving today        In transit
+  2849582019202       DHL      Picked up · 08:15am                Picked up
+  9400118999223       99min    Awaiting pickup                    Pending
+  483920192001        AMPM     Delivered · Yesterday 2:05pm       Delivered
+  7029384756291       FedEx    Out for delivery · GDL             In transit
+
+  (List loops on continuous scroll)
+
+
+────────────────────────────────────────
+9. TOP-UP (#recarga)
+────────────────────────────────────────
+
+H2: Add funds and start shipping today
+
+Description: Load balance with your card or SPEI transfer and pay for your
+             shipments in seconds. Full control, no hidden fees,
+             no complicated processes.
+
+Bullets:
+- Add funds easily with credit/debit card or via SPEI.
+- Enable auto-reload and make sure your shipments never stop.
+- Receive automatic receipts and reports for every transaction.
+
+CTA: Get started
+
+Top-up mockup (3 steps):
+  URL: app.t1envios.com/recargas
+
+  Step 1 — Select amount:
+    Title: Add funds — Select amount
+    Options: $500 | $1,000 | $2,000 | $5,000 | Custom amount…
+    Methods: Card | SPEI
+
+  Step 2 — Processing:
+    Processing payment…
+    $500 MXN · Card ending in 4242
+
+  Step 3 — Confirmation:
+    Funds added successfully!
+    +$500 MXN added to your balance
+    Current balance: $1,847 MXN
+
+
+────────────────────────────────────────
+10. FINAL SERVICES (T1 Ecosystem)
+────────────────────────────────────────
+
+H2: Sell, collect, and ship in one place
+
+Description: You focus on selling — T1 handles your store,
+             your shipments, and your payments.
+
+Card 1 — T1tienda
+  Start selling on marketplaces and connect 10+
+  channels in one place.
+  Features:
+  - AI-powered store builder
+  - Manage inventory and pricing
+  - Detailed reports
+  CTA: Create my store
+
+Card 2 — T1pagos
+  Receive payments fast and securely with cards,
+  transfers, and more.
+  Features:
+  - Payment link
+  - Chargeback dashboard
+  - Offer installment payments
+  CTA: Create a payment link
+
+Card 3 — T1envíos
+  Ship anywhere in Mexico with the best carriers
+  and the best prices.
+  Features:
+  - Quote and generate shipping labels
+  - Real-time tracking
+  - Manage your incidents
+  CTA: Get a quote
+
+
+────────────────────────────────────────
+11. OUR CUSTOMERS (#clientes)
+────────────────────────────────────────
+
+H2: Customer success stories.
+
+Description: With T1, businesses of all sizes simplify their operations
+             and sell more.
+
+Card: Reebok
+  Stat: +300% annual revenue growth
+  Copy: Reebok reduced logistics costs by 45% after integrating T1envíos.
+
+Card: BZPAY
+  Stat: 500K+ transactions evaluated
+  Copy: BZPAY improved its fraud prevention system with T1score.
+
+Card: PASE
+  Stat: 500K+ transactions evaluated per month
+  Copy: PASE optimizes its operations with T1score.
+
+Card: Chicos Olé
+  Stat: +65% e-commerce revenue
+  Copy: Chicos Olé scaled its e-commerce with T1tienda.
+
+Card: Tekknoshop
+  Stat: 7,000+ synced orders
+  Copy: Tekknoshop handles orders 60% faster with T1tienda.
+
+Card: Mercadazo
+  Stat: 500+ integrated sellers
+  Copy: Mercadazo optimized its logistics with T1envíos.
+
+Card: Doto
+  Stat: +300% annual growth
+  Copy: Doto scaled its e-commerce with T1envíos.
+
+Card: FILA
+  Stat: -45% processing time
+  Copy: FILA optimized its logistics with T1envíos.
+
+Card: Sanborns
+  Stat: +85% payment approval rate
+  Copy: Sanborns reduced chargebacks to 0.3% with T1score.
+
+Card: Ticketopolis
+  Stat: 99% anti-fraud approval rate
+  Copy: Ticketopolis secures its payments with T1score.
+
+Card: Cruz Azul
+  Stat: 50,000+ integrated sales
+  Copy: Cruz Azul integrated its entire operation with T1.
+
+Card: DecoHome
+  Stat: 200+ SKUs published across 6 channels
+  Copy: DecoHome manages its operations like a team 10x its size.
+
+Card: Sesén
+  Stat: +280% store visits
+  Copy: Sesén scaled its e-commerce with T1tienda.
+
+Card: Sears
+  Stat: +90% payment approval rate
+  Copy: Sears powers its operations with T1pagos.
+
+Card: Telcel
+  Stat: +15% authorized reloads
+  Copy: Telcel optimized its digital channels with T1pagos.
+
+Card: Pirma
+  Stat: +40% successful deliveries
+  Copy: Pirma streamlined its distribution with T1envíos.
+
+
+────────────────────────────────────────
+12. FAQ (#faq)
+────────────────────────────────────────
+
+H2: Frequently Asked Questions
+
+Description: Transparent, direct, and reliable — just like our platform.
+             Quick answers about shipments, rates, and more.
+
+Q: What is T1 Shipping and how does it work?
+A: T1 Shipping is a platform to quote, compare, and ship from one place
+   with leading carriers and competitive rates. Create your account in
+   minutes and manage your entire operation: labels, pickups, tracking,
+   incidents, and reports.
+
+Q: Do I need an online store to use T1 Shipping?
+A: No. You can use T1 Shipping even if you sell from a physical store,
+   via WhatsApp, Instagram, or marketplaces. If you already have an
+   online store, you can integrate it to centralize all your shipments.
+
+Q: Which carriers can I ship with?
+A: T1 Shipping connects with leading carriers so you can compare rates
+   and delivery times from the same dashboard: UPS, DHL, FedEx,
+   99minutos, and ampm.
+
+Q: What information do I need to get a quote?
+A: You just need: origin ZIP code, destination ZIP code, package weight
+   and dimensions.
+
+Q: How do I pay for my labels?
+A: It works with prepaid balance. You add funds to your account via
+   SPEI transfer or credit/debit card. Your balance never expires and
+   is deducted as you purchase labels.
+
+Q: Where do I drop off my packages?
+A: It depends on the service and carrier. You can drop off your package
+   at the nearest branch or, if available, schedule a home pickup
+   with the carrier.
+
+Q: Can I get invoices for my shipments?
+A: Yes. You can request your invoice from your account using your
+   tax information.
+
+
+────────────────────────────────────────
+13. FOOTER CTA
+────────────────────────────────────────
+
+H2: Ready to optimize your shipments with T1?
+
+Description: Centralize, automate, and deliver with the most complete
+             logistics platform in the T1 ecosystem.
+
+CTA: Get started now
+
+
+────────────────────────────────────────
+14. FOOTER
+────────────────────────────────────────
+
+Column 1 — Solutions:
+- T1tienda
+- T1pagos
+- T1envíos
+- T1score
+
+Column 2 — T1:
+- What is T1?
+- Careers
+- Press
+- Contact
+
+Locale: 🇲🇽 Mexico (English)
+
+Legal links:
+- Terms and conditions
+- Privacy policy
+
+Copyright: © 2025 T1. All rights reserved.
+
+
+================================================================================
+END OF DOCUMENT
+================================================================================

@@ -1,0 +1,511 @@
+================================================================================
+TEXTOS DA LANDING PAGE — T1 ENVIOS
+Versão: BRASIL 🇧🇷 — Português Brasileiro
+Baseado em: textos-landing.txt (versão México 🇲🇽 original)
+
+Convenção de marcas:
+  [MUDANÇA]  → texto modificado em relação à versão México
+  [NOVO]     → elemento novo que não existia no original
+  [REMOVER]  → elemento que deve ser eliminado na versão Brasil
+================================================================================
+
+
+────────────────────────────────────────
+1. HEADER (Navegação)
+────────────────────────────────────────
+
+Links de navegação:
+- Ecossistema                                           [MUDANÇA] "Ecosistema" → "Ecossistema"
+- O que é o T1 Envios?                                  [MUDANÇA] "¿Qué es T1Envios?" → "O que é o T1 Envios?"
+- Entrar                                                [MUDANÇA] "Iniciar sesión" → "Entrar"
+- Começar grátis                                        [MUDANÇA] "Comenzar gratis" → "Começar grátis"
+
+Menu mobile:
+- Ecossistema
+- O que é o T1 Envios?
+- Entrar
+- Começar agora                                         [MUDANÇA] "Comenzar ahora" → "Começar agora"
+
+
+────────────────────────────────────────
+2. HERO
+────────────────────────────────────────
+
+H1: Todos os seus envios.
+    Em um só lugar.
+    As melhores tarifas.                                [MUDANÇA] tradução direta
+
+Descrição: Cotize, envie e entregue com a melhor experiência do mercado.   [MUDANÇA] tradução
+
+CTA: Começar agora                                      [MUDANÇA] "Comenzar ahora" → "Começar agora"
+
+Stats:
+- +40 milhões de envios entregues                       [MUDANÇA] "millones de envíos entregados" → "milhões de envios entregues"
+- +25.000 negócios                                      [MUDANÇA] "+25,000 negocios" → "+25.000 negócios" (separador BR)
+
+Painel cotador (hero):
+  Cabeçalho: Jadlog                                     [MUDANÇA] "Grupo ampm" → "Jadlog" (transportadora líder BR)
+  Rastreio: Correios: 77452320977452                    [MUDANÇA] "FedEx" → "Correios" (mais reconhecido no BR)
+  Nº do pedido: 774523209
+  1 volume · 0,5 kg                                     [MUDANÇA] "pieza" → "volume" (termo BR) | ponto → vírgula decimal
+
+  Colunas: Transportadora | Data estimada | Destaque     [MUDANÇA] "Paquetería" → "Transportadora"
+
+  Correios      Sedex · 24H        24 jan    Mais rápido       R$18,90    Criar envio   [MUDANÇA] FedEx → Correios | MXN → BRL
+  Jadlog        Econômico · 2Dias  26 jan    Melhor serviço    R$12,50    Criar envio   [MUDANÇA] UPS → Jadlog
+  Loggi         Mesmo dia · 2hrs   28 jan    Melhor serviço    R$24,00    Criar envio   [MUDANÇA] DHL → Loggi
+  Total Express Padrão             5 fev                       R$10,80    Criar envio   [MUDANÇA] AMPM → Total Express
+  Azul Cargo    Padrão             6 fev                       R$9,90     Criar envio   [MUDANÇA] Paquetexpress → Azul Cargo
+
+Logos orbitais (transportadoras):
+  [MUDANÇA] UPS, FedEx, DHL, AMPM, 99 Minutos, J&T, Paquetexpress
+         →  Correios, Jadlog, Loggi, Total Express, Azul Cargo, DHL, FedEx
+
+
+────────────────────────────────────────
+3. MARQUEE DE MARCAS (Logos de confiança)
+────────────────────────────────────────
+
+Texto: Com a confiança de mais de 25.000 negócios de todos os portes      [MUDANÇA] tradução | "tamaños" → "portes" (termo BR)
+
+Logos (grayscale):
+  [REMOVER]  Círculo de Crédito   (bureau de crédito mexicano)
+  [REMOVER]  Telcel               (operadora mexicana)
+  [REMOVER]  Sears                (não opera no Brasil)
+  [MUDANÇA]  Claro → manter (opera no Brasil ✓)
+  [MUDANÇA]  Estée Lauder → manter (marca global ✓)
+  [MUDANÇA]  Plata → remover ou substituir
+  [NOVO]     Magazine Luiza       (varejo líder no Brasil)
+  [NOVO]     Mercado Livre        (marketplace líder no Brasil)
+  [NOVO]     Serasa               (bureau de crédito BR, equivalente ao Círculo de Crédito)
+
+
+────────────────────────────────────────
+4. CARDS DE SERVIÇOS (Serviços principais)
+────────────────────────────────────────
+
+H2: Simplifique seus envios com o T1 Envios                [MUDANÇA] tradução
+
+Descrição: Gerencie cotações, envios e rastreamento de todas as suas
+           transportadoras em uma única plataforma web.    [MUDANÇA] "paqueterías" → "transportadoras"
+
+Card 1 — Cotar
+  Descubra e compare as melhores tarifas e prazos de entrega
+  entre as principais transportadoras.                     [MUDANÇA] tradução | "paqueterías" → "transportadoras"
+  CTA: Cotar agora                                         [MUDANÇA] "Cotiza ahora" → "Cotar agora"
+
+Card 2 — Enviar
+  Gere etiquetas de envio para todo o Brasil, crie modelos
+  predefinidos dos seus volumes e solicite coleta
+  no seu armazém.                                          [MUDANÇA] "todo México" → "todo o Brasil" | "guías" → "etiquetas" | "almacén" → "armazém"
+  CTA: Fazer um envio                                      [MUDANÇA] "Realiza un envío" → "Fazer um envio"
+
+Card 3 — Rastrear
+  Saiba onde estão seus volumes a qualquer momento,
+  acompanhe as ocorrências e resolva-as direto no T1.      [MUDANÇA] "incidencias" → "ocorrências" (termo logístico BR)
+  CTA: Rastrear um envio                                   [MUDANÇA] "Rastrea un envío" → "Rastrear um envio"
+
+
+────────────────────────────────────────
+5. INTEGRE CANAIS (#marcas-t1)
+────────────────────────────────────────
+
+H2: Integre seus canais de venda e automatize seus envios. [MUDANÇA] tradução
+
+Descrição: Sincronize pedidos, endereços e status de envio com a T1 Loja,
+           Shopee, Mercado Livre, Amazon, Shein, Magazine Luiza e mais.  [MUDANÇA] Sears/Sanborns → Shopee/Magazine Luiza
+           Seus pedidos são atualizados automaticamente e suas etiquetas
+           são geradas em segundos.                        [MUDANÇA] "guías" → "etiquetas"
+
+CTA: Começar agora                                         [MUDANÇA]
+
+Logos flutuantes (marketplaces):
+  [MUDANÇA]  Sears     → Shopee          (marketplace líder no BR)
+  [MUDANÇA]  Sanborns  → Magazine Luiza  (varejo líder no BR)
+  [MUDANÇA]  Coppel    → Americanas      (varejo líder no BR)
+  ✓ T1 Loja                              [MUDANÇA] "T1tienda" → "T1 Loja"
+  ✓ Shein
+  ✓ TikTok Shop
+  ✓ AliExpress
+  ✓ Shopify
+  ✓ Mercado Livre
+  ✓ Amazon
+  ✓ Walmart (opera no BR ✓)
+  ✓ WooCommerce
+  ✓ Wix
+  [NOVO] Shopee                          (marketplace líder no Brasil)
+
+
+────────────────────────────────────────
+6. TARIFAS (#tarifas)
+────────────────────────────────────────
+
+H2: Compare tarifas, vantagens e prazos de entrega de todos os seus envios.   [MUDANÇA] tradução
+
+Descrição: Calcule, escolha e crie seu envio na hora — tudo em um só lugar.   [MUDANÇA] tradução
+
+CTA: Cotar agora                                           [MUDANÇA] "Cotizar ahora" → "Cotar agora"
+
+Abas: Cotação | Coleta | Meus Envios                       [MUDANÇA] "Cotizador | Recolección | Mis envíos" → termos BR
+
+--- Slide 1: Cotação ---
+  URL mockup: app.t1envios.com.br/cotacao                 [MUDANÇA] domínio .com.br
+  Título: Cotação — Resultados para SP → RJ, 2kg           [MUDANÇA] CDMX → SP (São Paulo) | MTY → RJ (Rio de Janeiro)
+
+  Correios      Sedex               1–2 dias úteis    Mais rápido    R$24,90    Criar envio   [MUDANÇA] transportadoras e preços em BRL
+  Jadlog        Jadlog Package      2–3 dias úteis    Melhor preço   R$14,50    Criar envio
+  Total Express Total Normal        3–4 dias úteis                   R$12,80    Criar envio
+  Loggi         Loggi Express       Mesmo dia                        R$38,00    Criar envio
+
+--- Slide 2: Coleta ---
+  Título: Agendar Coleta — Horário confirmado              [MUDANÇA] tradução
+
+  Transportadora: Jadlog Package                           [MUDANÇA] "FedEx Standard" → "Jadlog Package"
+  Data: Hoje, 14h–18h
+  Endereço: Av. Paulista, 1000, São Paulo – SP             [MUDANÇA] "Insurgentes 100, CDMX" → endereço paulistano
+  Status: Confirmado ✓
+  ✓ O entregador estará no seu endereço entre 14h e 18h.  [MUDANÇA] tradução
+
+--- Slide 3: Meus Envios ---
+  Título: Meus Envios — Últimas etiquetas                  [MUDANÇA] "guías" → "etiquetas"
+
+  BR123456789BR    Correios · Entregue hoje às 10h32        Entregue     [MUDANÇA] formato rastreio Correios
+  JD794658401BR    Jadlog · A caminho                       Em trânsito  [MUDANÇA]
+  TE1A765780190    Total Express · Coletado na origem       Coletado     [MUDANÇA]
+  LG400118999BR    Loggi · Pendente                         Pendente     [MUDANÇA]
+
+
+────────────────────────────────────────
+7. RELATÓRIOS (#reportes)
+────────────────────────────────────────
+
+H2: Visualize relatórios melhores para tomar decisões melhores.   [MUDANÇA] tradução
+
+Descrição: Acompanhe em tempo real o status dos seus envios, custos e
+           desempenho das transportadoras. Transforme seus dados em
+           decisões mais rentáveis.                        [MUDANÇA] tradução
+
+CTA: Começar agora
+
+Abas: Relatórios | Ocorrências                             [MUDANÇA] "Reportes | Incidencias" → "Relatórios | Ocorrências"
+
+--- Aba 1: Relatórios ---
+  URL mockup: app.t1envios.com.br/relatorios               [MUDANÇA] domínio e termo PT
+  Título: Painel de Relatórios — Julho 2025                [MUDANÇA] "Dashboard" → "Painel" (mais natural em BR)
+
+  Envios este mês: 3.482                                   [MUDANÇA] separador milhar BR
+  Custo médio/envio: R$18,70                               [MUDANÇA] $87 MXN → R$18,70 BRL
+  Taxa de entrega: 96,4%                                   [MUDANÇA] ponto → vírgula decimal (padrão BR)
+  Economia vs. balcão: R$14.280,00                         [MUDANÇA] "mostrador" → "balcão" (termo BR) | formato BRL
+  +12% vs. mês anterior                                    [MUDANÇA] tradução
+
+--- Aba 2: Ocorrências ---                                 [MUDANÇA] "Incidencias" → "Ocorrências"
+  Título: Gestão de Ocorrências — 8 ativas                 [MUDANÇA] tradução
+
+  📦 Sem movimentação — Correios #4829    SP · 3 dias sem atualização      Em análise    [MUDANÇA]
+  ❌ Endereço incorreto — Jadlog #7103    RJ · Correção necessária          Urgente       [MUDANÇA]
+  ✓  Reentrega bem-sucedida — Total #5512 BH · Resolvida hoje              Resolvida     [MUDANÇA] GDL → BH (Belo Horizonte)
+  🔍 Volume extraviado — Loggi #2291      SP · Investigação aberta          Em andamento  [MUDANÇA]
+
+
+────────────────────────────────────────
+8. RASTREAMENTO (#seguir)
+────────────────────────────────────────
+
+H2: Acompanhe seus envios de forma fácil e rápida.         [MUDANÇA] tradução
+
+Descrição: Monitore suas entregas em um único painel e receba avisos
+           automáticos sobre o status de cada volume. Você sempre
+           saberá onde está e quando chega.                [MUDANÇA] tradução
+
+Bullets:
+- Monitore entregas em tempo real pelo seu painel.         [MUDANÇA] tradução
+- Receba alertas automáticos sobre atrasos ou entregas concluídas.
+- Mantenha seus clientes informados sem rastreamento manual.
+
+CTA: Começar agora
+
+Mockup de rastreamento:
+  URL: app.t1envios.com.br/rastreamento                    [MUDANÇA] "rastreo" → "rastreamento" | domínio .com.br
+
+  BR123456789BR    Correios    Entregue · Hoje às 10h32        Entregue     [MUDANÇA]
+  JD794658401BR    Jadlog      A caminho · Chega hoje          Em trânsito  [MUDANÇA]
+  EC849582019BR    Correios    Coletado · 08h15                Coletado     [MUDANÇA]
+  LG400118999BR    Loggi       Aguardando coleta               Pendente     [MUDANÇA]
+  TE483920192BR    Total Exp.  Entregue · Ontem às 14h05       Entregue     [MUDANÇA]
+  JD702938475BR    Jadlog      Em distribuição · BH            Em trânsito  [MUDANÇA] GDL → BH
+
+  (Lista se repete em scroll contínuo)
+
+
+────────────────────────────────────────
+9. RECARGA DE SALDO (#recarga)
+────────────────────────────────────────
+
+H2: Adicione saldo e comece a enviar hoje mesmo            [MUDANÇA] tradução
+
+Descrição: Carregue saldo com seu cartão ou via Pix e pague seus envios
+           em segundos. Controle total, sem taxas extras nem processos
+           complicados.                                    [MUDANÇA] "SPEI" → "Pix" (equivalente brasileiro)
+
+Bullets:
+- Adicione saldo facilmente com cartão de crédito/débito ou via Pix.   [MUDANÇA] "SPEI" → "Pix"
+- Ative o recarregamento automático e garanta que seus envios nunca parem.
+- Receba comprovantes e relatórios automáticos de cada transação.      [MUDANÇA] tradução
+
+CTA: Começar agora
+
+Mockup de recarga (3 etapas):
+  URL: app.t1envios.com.br/saldo                           [MUDANÇA] domínio e "recargas" → "saldo"
+
+  Etapa 1 — Selecione o valor:
+    Título: Adicionar saldo — Selecione o valor            [MUDANÇA] tradução
+    Opções: R$50 | R$100 | R$200 | R$500 | Outro valor…   [MUDANÇA] MXN → BRL equivalentes
+    Métodos: Cartão | Pix                                  [MUDANÇA] "SPEI" → "Pix"
+
+  Etapa 2 — Processando:
+    Processando pagamento…                                 [MUDANÇA] tradução
+    R$50,00 · Cartão terminado em 4242                     [MUDANÇA] $500 MXN → R$50,00 BRL
+
+  Etapa 3 — Confirmação:
+    Saldo adicionado com sucesso!                          [MUDANÇA] "¡Recarga exitosa!" → "Saldo adicionado com sucesso!"
+    +R$50,00 adicionados ao seu saldo                      [MUDANÇA] tradução + BRL
+    Saldo atual: R$184,70                                  [MUDANÇA] $1,847 MXN → R$184,70 BRL
+
+
+────────────────────────────────────────
+10. SERVIÇOS FINAIS (Ecossistema T1)
+────────────────────────────────────────
+
+H2: Venda, receba e envie em um só lugar                   [MUDANÇA] tradução
+
+Descrição: Você foca em vender e o T1 cuida da sua loja, dos seus envios
+           e dos seus pagamentos.                          [MUDANÇA] tradução
+
+Card 1 — T1 Loja                                           [MUDANÇA] "T1tienda" → "T1 Loja"
+  Comece a vender nos marketplaces e conecte mais de 10
+  canais em um só lugar.
+  Recursos:                                                [MUDANÇA] "Features" → "Recursos"
+  - Criação de loja com IA                                 [MUDANÇA] "Diseño de tienda con IA"
+  - Gerencie estoque e preços                              [MUDANÇA] "inventarios" → "estoque"
+  - Relatórios detalhados                                  [MUDANÇA] "Reportes" → "Relatórios"
+  CTA: Criar minha loja                                    [MUDANÇA] "Crear mi tienda" → "Criar minha loja"
+
+Card 2 — T1 Pagamentos                                     [MUDANÇA] "T1pagos" → "T1 Pagamentos"
+  Receba pagamentos de forma rápida e segura com cartões,
+  Pix e muito mais.                                        [MUDANÇA] "transferencias" → "Pix"
+  Recursos:
+  - Link de pagamento                                      [MUDANÇA] "Link de pago" → "Link de pagamento"
+  - Painel de contestações                                 [MUDANÇA] "contracargos" → "contestações" (termo BR)
+  - Ofereça parcelamento sem juros                         [MUDANÇA] "meses sin intereses" → "parcelamento sem juros"
+  CTA: Criar link de pagamento                             [MUDANÇA] tradução
+
+Card 3 — T1 Envios
+  Envie para todo o Brasil com as melhores transportadoras
+  e os melhores preços.                                    [MUDANÇA] "todo México" → "todo o Brasil" | "paqueterías" → "transportadoras"
+  Recursos:
+  - Cotar e criar etiquetas de envio                       [MUDANÇA] "guías" → "etiquetas"
+  - Rastreamento em tempo real
+  - Gerencie suas ocorrências                              [MUDANÇA] "incidencias" → "ocorrências"
+  CTA: Cotar envio                                         [MUDANÇA] "Cotizar envío" → "Cotar envio"
+
+
+────────────────────────────────────────
+11. NOSSOS CLIENTES (#clientes)
+────────────────────────────────────────
+
+H2: Casos de sucesso de clientes.                          [MUDANÇA] tradução
+
+Descrição: Com o T1, negócios de diferentes portes simplificam
+           sua operação e vendem mais.                     [MUDANÇA] tradução | "tamaños" → "portes"
+
+NOTA: As seguintes marcas são clientes mexicanos. Para o Brasil recomenda-se:
+  a) Manter marcas globais presentes no BR (Reebok, FILA)
+  b) Substituir marcas 100% mexicanas por referências genéricas ou clientes BR reais
+  c) Cards marcados com [REMOVER] devem ser eliminados ou substituídos
+
+Card: Reebok               ✓ manter (marca global, opera no BR)
+  Stat: +300% em crescimento anual de vendas               [MUDANÇA] tradução
+  Texto: A Reebok reduziu 45% dos seus custos logísticos
+         ao integrar o T1 Envios.                          [MUDANÇA] tradução
+
+Card: FILA                 ✓ manter (marca global, opera no BR)
+  Stat: -45% no tempo de processamento                     [MUDANÇA] tradução
+  Texto: A FILA otimizou sua logística com o T1 Envios.    [MUDANÇA] tradução
+
+Card: BZPAY                ✓ manter se opera no BR
+  Stat: +500 mil transações avaliadas                      [MUDANÇA] tradução
+  Texto: A BZPAY melhorou seu sistema de prevenção de
+         fraudes com o T1score.                            [MUDANÇA] tradução
+
+Card: Tekknoshop           ✓ manter (nome neutro)
+  Stat: +7.000 pedidos sincronizados                       [MUDANÇA] tradução + formato BR
+  Texto: A Tekknoshop atende pedidos 60% mais rápido
+         com o T1 Loja.                                    [MUDANÇA] tradução
+
+Card: DecoHome             ✓ manter (nome neutro)
+  Stat: +200 SKUs publicados em 6 canais                   [MUDANÇA] tradução
+  Texto: A DecoHome gerencia sua operação como uma equipe
+         10x maior.                                        [MUDANÇA] tradução
+
+Card: Doto                 ✓ manter (nome neutro)
+  Stat: +300% de crescimento anual                         [MUDANÇA] tradução
+  Texto: A Doto escalou seu e-commerce com o T1 Envios.    [MUDANÇA] tradução
+
+[REMOVER] PASE             (sistema de pedágios mexicano)
+[REMOVER] Chicos Olé       (marca local mexicana)
+[REMOVER] Mercadazo        (marketplace mexicano)
+[REMOVER] Sesén            (marca local mexicana)
+[REMOVER] Sears            (não opera no Brasil)
+[REMOVER] Sanborns         (marca mexicana)
+[REMOVER] Telcel           (operadora mexicana)
+[REMOVER] Pirma            (marca de calçados mexicana)
+[REMOVER] Cruz Azul        (time de futebol mexicano)
+[REMOVER] Ticketopolis     (pouco reconhecida no BR)
+
+
+────────────────────────────────────────
+12. PERGUNTAS FREQUENTES (#faq)
+────────────────────────────────────────
+
+H2: Perguntas Frequentes                                   [MUDANÇA] tradução
+
+Descrição: Transparente, direto e confiável — assim como nossa plataforma.
+           Respostas rápidas sobre envios, tarifas e muito mais.   [MUDANÇA] tradução
+
+P: O que é o T1 Envios e como funciona?                    [MUDANÇA] tradução
+R: O T1 Envios é uma plataforma para cotar, comparar e enviar em um
+   só lugar com as principais transportadoras e tarifas competitivas.
+   Crie sua conta em minutos e gerencie toda a sua operação:
+   etiquetas, coletas, rastreamento, ocorrências e relatórios.    [MUDANÇA] termos BR
+
+P: Preciso ter uma loja online para usar o T1 Envios?      [MUDANÇA] tradução
+R: Não. Você pode usar o T1 Envios mesmo que venda por loja física,
+   WhatsApp, Instagram ou marketplaces. Se já tiver uma loja online,
+   também pode integrá-la para centralizar todos os seus envios.   [MUDANÇA] tradução
+
+P: Com quais transportadoras posso enviar?                 [MUDANÇA] "paqueterías" → "transportadoras"
+R: O T1 Envios se conecta com as principais transportadoras para você
+   comparar tarifas e prazos no mesmo painel: Correios, Jadlog,
+   Loggi, Total Express e Azul Cargo.                      [MUDANÇA] transportadoras BR
+
+P: Quais informações preciso para cotar um envio?          [MUDANÇA] tradução
+R: Você só precisa de: CEP de origem, CEP de destino,
+   peso e dimensões do volume.                             [MUDANÇA] "código postal" → "CEP" (termo BR)
+
+P: Como funciona o pagamento das minhas etiquetas?         [MUDANÇA] "guías" → "etiquetas"
+R: Funciona com saldo pré-pago. Você adiciona saldo à sua conta
+   via Pix ou cartão de crédito/débito. O saldo não tem validade
+   e é descontado conforme você compra etiquetas.          [MUDANÇA] "SPEI" → "Pix" | "guías" → "etiquetas"
+
+P: Onde entrego meus volumes?                              [MUDANÇA] tradução
+R: Depende do serviço e da transportadora. Você pode entregar seu
+   volume no ponto de entrega mais próximo ou, se disponível,
+   agendar coleta em domicílio com a transportadora.       [MUDANÇA] "sucursal" → "ponto de entrega"
+
+P: Posso emitir nota fiscal dos meus envios?               [MUDANÇA] "factura" → "nota fiscal" (termo fiscal BR)
+R: Sim. Você pode solicitar sua nota fiscal pela sua conta
+   com seu CNPJ ou CPF.                                    [MUDANÇA] "datos fiscales" → "CNPJ ou CPF"
+
+
+────────────────────────────────────────
+13. CTA FINAL
+────────────────────────────────────────
+
+H2: Pronto para otimizar seus envios com o T1?             [MUDANÇA] tradução
+
+Descrição: Centralize, automatize e entregue com a plataforma logística
+           mais completa do ecossistema T1.                [MUDANÇA] tradução
+
+CTA: Comece agora                                          [MUDANÇA] "Comienza ahora" → "Comece agora"
+
+
+────────────────────────────────────────
+14. RODAPÉ (Footer)
+────────────────────────────────────────
+
+Coluna 1 — Soluções:                                       [MUDANÇA] "Soluciones" → "Soluções"
+- T1 Loja                                                  [MUDANÇA] "T1tienda" → "T1 Loja"
+- T1 Pagamentos                                            [MUDANÇA] "T1pagos" → "T1 Pagamentos"
+- T1 Envios
+- T1score                                                  ✓
+
+Coluna 2 — T1:
+- O que é o T1?                                            [MUDANÇA] "¿Qué es T1?" → "O que é o T1?"
+- Carreiras                                                [MUDANÇA] "Carreras" → "Carreiras"
+- Imprensa                                                 [MUDANÇA] "Prensa" → "Imprensa"
+- Contato                                                  [MUDANÇA] "Contacto" → "Contato"
+
+Idioma: 🇧🇷 Brasil (Português)                             [MUDANÇA] 🇲🇽 México (Español) → 🇧🇷 Brasil (Português)
+
+Links legais:
+- Termos e condições                                       [MUDANÇA] tradução
+- Privacidade                                              ✓
+
+Copyright: © 2025 T1. Todos os direitos reservados.        [MUDANÇA] "derechos" → "direitos"
+
+
+================================================================================
+RESUMO DAS MUDANÇAS POR CATEGORIA
+================================================================================
+
+TERMINOLOGIA LOGÍSTICA (10 mudanças)
+  paqueterías           → transportadoras
+  guías de envío        → etiquetas de envio
+  incidencias           → ocorrências
+  almacén               → armazém
+  sucursal              → ponto de entrega
+  mostrador             → balcão
+  código postal         → CEP
+  recolección           → coleta
+
+PAGAMENTOS E MOEDA (7 mudanças)
+  SPEI                  → Pix
+  Valores em MXN        → Valores em BRL (R$)
+  meses sin intereses   → parcelamento sem juros
+  contracargos          → contestações
+  datos fiscales / RFC  → CNPJ ou CPF
+  factura               → nota fiscal
+
+GEOGRAFIA (8 mudanças)
+  CDMX                  → SP (São Paulo)
+  MTY (Monterrey)       → RJ (Rio de Janeiro)
+  GDL (Guadalajara)     → BH (Belo Horizonte)
+  Insurgentes 100, CDMX → Av. Paulista, 1000, São Paulo – SP
+  .com / .mx            → .com.br
+
+TRANSPORTADORAS (7 mudanças)
+  FedEx (principal)     → Correios / Sedex
+  UPS                   → Jadlog
+  DHL                   → Loggi
+  AMPM                  → Total Express
+  Paquetexpress         → Azul Cargo
+  99 Minutos            → Loggi Express (same day)
+  J&T                   → DHL (mantém presença no BR)
+
+MARKETPLACES / VAREJO (3 mudanças)
+  Sears                 → Shopee
+  Sanborns              → Magazine Luiza
+  Coppel                → Americanas
+
+LOGOS MARQUEE (3 mudanças)
+  Círculo de Crédito    → Serasa
+  Telcel                → [remover]
+  Sears                 → Magazine Luiza ou Mercado Livre
+
+NOMES DE PRODUTO (3 mudanças)
+  T1tienda              → T1 Loja
+  T1pagos               → T1 Pagamentos
+  T1envíos              → T1 Envios (sem acento — BR)
+
+CLIENTES / CASOS DE SUCESSO (10 cards a remover)
+  Remover: PASE, Chicos Olé, Mercadazo, Sesén, Sears, Sanborns,
+           Telcel, Pirma, Cruz Azul, Ticketopolis
+
+RODAPÉ (4 mudanças)
+  Termos e condições, Privacidade, Carreiras, Imprensa
+  🇲🇽 México (Español) → 🇧🇷 Brasil (Português)
+
+================================================================================
+FIM DO DOCUMENTO
+================================================================================

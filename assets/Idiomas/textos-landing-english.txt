@@ -1,0 +1,517 @@
+================================================================================
+LANDING PAGE COPY — T1 SHIPPING
+Version: ENGLISH 🇺🇸 (US/Global)
+Based on: textos-landing.txt (Mexico 🇲🇽 original)
+
+Notation:
+  [CHANGE]  → text modified from the original Spanish/Mexico version
+  [NEW]     → new element not present in the original
+  [REMOVE]  → element that should be removed for this version
+================================================================================
+
+
+────────────────────────────────────────
+1. HEADER (Navigation)
+────────────────────────────────────────
+
+Nav links:
+- Ecosystem
+- What is T1 Shipping?                    [CHANGE] "¿Qué es T1Envios?" → "What is T1 Shipping?"
+- Log in                                  [CHANGE] "Iniciar sesión" → "Log in"
+- Get started free                        [CHANGE] "Comenzar gratis" → "Get started free"
+
+Mobile menu:
+- Ecosystem
+- What is T1 Shipping?                    [CHANGE]
+- Log in                                  [CHANGE]
+- Get started                             [CHANGE] "Comenzar ahora" → "Get started"
+
+
+────────────────────────────────────────
+2. HERO
+────────────────────────────────────────
+
+H1: All your shipments.
+    One single place.
+    The best rates.                       [CHANGE] Direct translation, natural English phrasing
+
+Description: Quote, ship, and deliver with the best experience on the market.   [CHANGE] translated
+
+CTA: Get started                          [CHANGE] "Comenzar ahora" → "Get started"
+
+Stats:
+- 40M+ shipments delivered                [CHANGE] "+40 millones de envíos entregados" → "40M+ shipments delivered"
+- 25,000+ businesses                      [CHANGE] "+25,000 negocios" → "25,000+ businesses"
+
+Hero quoter panel:
+  Header: Ampm Group                      [CHANGE] "Grupo ampm" → "Ampm Group"
+  Tracking #: FedEx: 77452320977452
+  Order #: 774523209
+  1 piece · 0.5 kg (1.1 lb)              [NEW] add lb conversion for US audience
+
+  Columns: Carrier | Est. Delivery | Highlights  [CHANGE] "Paquetería | Fecha estimada | Ventajas" → "Carrier | Est. Delivery | Highlights"
+
+  FedEx         Same day · 24H    Jan 24    Fastest           $1––    Create shipment   [CHANGE] "Crear envío" → "Create shipment"
+  UPS           Economy · 2 Days  Jan 26    Best service      $168    Create shipment
+  DHL           Same day · 2Hrs   Feb 2     Best service      $168    Create shipment
+  AMPM          Standard          Feb 5                       $142    Create shipment
+  Paquetexpress Standard          Feb 6                       $138    Create shipment
+
+  NOTE: For a US market version, replace Mexican carriers with US carriers:
+  FedEx, UPS, USPS, DHL, OnTrac, LaserShip                   [NEW] US carrier suggestions
+
+Orbital logos (carriers):
+  ✓ UPS, FedEx, DHL  (global carriers — keep as is)
+  [CHANGE] AMPM, 99 Minutos, J&T, Paquetexpress → replace with US carriers if targeting US market
+
+
+────────────────────────────────────────
+3. TRUST MARQUEE (Trust logos)
+────────────────────────────────────────
+
+Copy: Trusted by 25,000+ businesses of all sizes              [CHANGE] "Con la confianza de más de 25,000 negocios de todos los tamaños"
+
+Logos (grayscale):
+  [REMOVE]  Círculo de Crédito   (Mexican credit bureau, not recognized in US/global)
+  [REMOVE]  Telcel               (Mexican carrier)
+  [CHANGE]  Claro → keep if global, remove if US-only
+  ✓ Estée Lauder                 (global brand — keep)
+  [CHANGE]  Plata → evaluate relevance for target market
+  [CHANGE]  Sears → if US: Sears is recognized but declining; consider replacing
+
+
+────────────────────────────────────────
+4. SECTION CARDS (Main services)
+────────────────────────────────────────
+
+H2: Simplify your shipping with T1 Shipping                   [CHANGE] "Simplifica tus envíos con T1 Envíos"
+
+Description: Manage quotes, shipments, and tracking for all your carriers        [CHANGE] "paqueterías" → "carriers"
+             from a single web platform.                                          [CHANGE] translated
+
+Card 1 — Quote
+  Discover and compare the best rates and delivery times
+  across top carriers.                                        [CHANGE] translated
+  CTA: Quote now                                              [CHANGE] "Cotiza ahora" → "Quote now"
+
+Card 2 — Ship
+  Generate shipping labels anywhere in the country,           [CHANGE] "todo México" → "anywhere in the country"
+  create saved package templates, and schedule
+  pickups from your warehouse.                                [CHANGE] "almacén" → "warehouse" | "solicita recolección" → "schedule pickups"
+  CTA: Create a shipment                                      [CHANGE] "Realiza un envío" → "Create a shipment"
+
+Card 3 — Track
+  Know where your packages are at all times,
+  manage delivery exceptions, and resolve them                [CHANGE] "incidencias" → "delivery exceptions"
+  directly from T1.
+  CTA: Track a shipment                                       [CHANGE] "Rastrea un envío" → "Track a shipment"
+
+
+────────────────────────────────────────
+5. INTEGRATE CHANNELS (#marcas-t1)
+────────────────────────────────────────
+
+H2: Connect your sales channels and automate your shipping.   [CHANGE] "Integra tus canales de venta y automatiza tus envíos."
+
+Description: Sync orders, addresses, and shipment statuses with T1 Store,        [CHANGE] "T1tiendas" → "T1 Store"
+             Shopify, Amazon, Mercado Libre, Shein, and more.                    [CHANGE] removed Sears/Sanborns (Mexico-only)
+             Your orders update automatically and your labels
+             are generated in seconds.                                            [CHANGE] "guías" → "labels"
+
+CTA: Get started                                              [CHANGE] "Comenzar ahora" → "Get started"
+
+Floating logos (marketplaces):
+  ✓ T1 Store
+  ✓ Shein
+  ✓ TikTok Shop
+  ✓ AliExpress
+  ✓ Shopify
+  ✓ Amazon
+  ✓ Walmart
+  ✓ WooCommerce
+  [CHANGE] Sears     → eBay (more relevant for US/global)    [NEW]
+  [CHANGE] Sanborns  → Etsy (relevant for US/global)         [NEW]
+  [CHANGE] Coppel    → Target (US market)                    [NEW]
+  ✓ Mercado Libre (keep for LatAm-aware US audience)
+  ✓ Wix
+  ✓ Cloud
+
+
+────────────────────────────────────────
+6. RATES (#tarifas)
+────────────────────────────────────────
+
+H2: Compare rates, features, and delivery times for all your shipments.   [CHANGE] translated
+
+Description: Calculate, choose, and create your shipment instantly —
+             all in one place.                                            [CHANGE] translated
+
+CTA: Get a quote                                              [CHANGE] "Cotizar ahora" → "Get a quote"
+
+Tabs: Quote | Pickup | My Shipments                          [CHANGE] "Cotizador | Recolección | Mis envíos" → "Quote | Pickup | My Shipments"
+
+--- Slide 1: Quote ---
+  URL mockup: app.t1shipping.com/quote                       [CHANGE] t1envios.com → t1shipping.com (English domain suggestion)
+  Title: Quote — Results for NYC → LA, 2 kg (4.4 lb)        [CHANGE] CDMX → MTY → NYC → LA (US cities)
+
+  DHL       DHL Express        1–2 business days    Fastest       $24.99    Create shipment   [CHANGE] Prices in USD
+  FedEx     FedEx Standard     2–3 business days    Best price    $14.99    Create shipment
+  UPS       UPS Ground         3–4 business days                  $16.50    Create shipment
+  OnTrac    OnTrac Economy     Same day                           $32.00    Create shipment   [CHANGE] 99min → OnTrac (US same-day)
+
+--- Slide 2: Pickup ---
+  Title: Schedule Pickup — Confirmed                         [CHANGE] "Crear recolección — Horario confirmado"
+
+  Carrier: FedEx Standard
+  Date: Today, 2:00–6:00 PM                                  [CHANGE] 14:00–18:00 → 2:00–6:00 PM (12h format)
+  Address: 123 Main St, New York, NY                         [CHANGE] Insurgentes 100, CDMX → US-style address
+  Status: Confirmed ✓
+  ✓ Your courier will arrive between 2:00 and 6:00 PM.       [CHANGE] translated
+
+--- Slide 3: My Shipments ---
+  Title: My Shipments — Recent Labels                        [CHANGE] "Últimas guías" → "Recent Labels"
+
+  1Z999AA10123456784    DHL · Delivered today at 10:32am         Delivered    [CHANGE] translated
+  794658401724          FedEx · In transit                        In transit   [CHANGE] "En camino" → "In transit"
+  1ZA765780190025213    UPS · Picked up at origin                 Picked up    [CHANGE] "En sucursal origen" → "Picked up at origin"
+  9400111899223397988   OnTrac · Pending                          Pending      [CHANGE] 99 Minutos → OnTrac
+
+
+────────────────────────────────────────
+7. REPORTS (#reportes)
+────────────────────────────────────────
+
+H2: Better reports for smarter decisions.                    [CHANGE] "Visualiza mejores reportes para tomar mejores decisiones."
+
+Description: Track your shipment status, costs, and carrier performance          [CHANGE] translated
+             in real time. Turn your data into more profitable decisions.
+
+CTA: Get started                                             [CHANGE] "Comenzar ahora" → "Get started"
+
+Tabs: Reports | Exceptions                                   [CHANGE] "Reportes | Incidencias" → "Reports | Exceptions"
+
+--- Tab 1: Reports ---
+  URL mockup: app.t1shipping.com/reports                     [CHANGE] domain
+  Title: Reports Dashboard — July 2025
+
+  Shipments this month: 3,482
+  Avg. cost per shipment: $18.50 USD                         [CHANGE] $87 MXN → $18.50 USD
+  Delivery success rate: 96.4%
+  Savings vs. counter rate: $4,280 USD                       [CHANGE] "mostrador" → "counter rate" | amount in USD
+  +12% vs. last month                                        [CHANGE] translated
+
+--- Tab 2: Exceptions ---                                    [CHANGE] "Incidencias" → "Exceptions"
+  Title: Exception Management — 8 active                     [CHANGE] translated
+
+  📦 No movement — DHL #4829         NYC · 3 days without update     Under review   [CHANGE] CDMX → NYC | translated
+  ❌ Wrong address — FedEx #7103      LA · Correction required        Urgent         [CHANGE] MTY → LA | translated
+  ✓  Re-delivery successful — UPS #5512  CHI · Resolved today        Resolved       [CHANGE] GDL → CHI (Chicago) | translated
+  🔍 Lost package — OnTrac #2291     NYC · Investigation open        In progress    [CHANGE] 99min → OnTrac | CDMX → NYC | translated
+
+
+────────────────────────────────────────
+8. TRACKING (#seguir)
+────────────────────────────────────────
+
+H2: Track your shipments, fast and easy.                     [CHANGE] "Sigue tus envíos fácil y rápido."
+
+Description: Monitor your deliveries from a single dashboard and receive
+             automatic alerts on every package status update.                    [CHANGE] translated
+             You'll always know where it is and when it arrives.
+
+Bullets:
+- Monitor deliveries in real time from your dashboard.       [CHANGE] translated
+- Get automatic alerts for delays or completed deliveries.   [CHANGE] translated
+- Keep your customers informed without manual tracking.      [CHANGE] translated
+
+CTA: Get started                                             [CHANGE]
+
+Mockup tracking list:
+  URL: app.t1shipping.com/tracking                           [CHANGE] domain | "rastreo" → "tracking"
+
+  794658401724        FedEx    Delivered · Today 10:32am          Delivered    [CHANGE] translated
+  1Z999AA101234567    UPS      In transit · Arriving today        In transit   [CHANGE] "En camino" → "In transit"
+  2849582019202       DHL      Picked up · 08:15am                Picked up    [CHANGE] "Recolectado" → "Picked up"
+  9400118999223       OnTrac   Awaiting pickup                    Pending      [CHANGE] 99min → OnTrac | translated
+  483920192001        AMPM     Delivered · Yesterday 2:05pm       Delivered    [CHANGE] translated
+  7029384756291       FedEx    Out for delivery · CHI             In transit   [CHANGE] GDL → CHI | translated
+
+  (List loops on continuous scroll)                          [CHANGE] translated
+
+
+────────────────────────────────────────
+9. TOP-UP / BALANCE (#recarga)
+────────────────────────────────────────
+
+H2: Add funds and start shipping today                       [CHANGE] "Recarga fácil y empieza a enviar hoy mismo"
+
+Description: Load balance with your credit card or ACH transfer                  [CHANGE] "SPEI" → "ACH transfer" (US equivalent)
+             and pay for your shipments in seconds.
+             Full control, no hidden fees, no complicated processes.             [CHANGE] translated
+
+Bullets:
+- Add funds easily with credit/debit card or ACH transfer.   [CHANGE] "SPEI" → "ACH transfer"
+- Enable auto-reload and make sure your shipments never stop. [CHANGE] "recarga automática" → "auto-reload"
+- Receive automatic receipts and reports for every transaction. [CHANGE] translated
+
+CTA: Get started                                             [CHANGE]
+
+Top-up mockup (3 steps):
+  URL: app.t1shipping.com/balance                            [CHANGE] "recargas" → "balance"
+
+  Step 1 — Select amount:
+    Title: Add funds — Select amount                         [CHANGE] "Recargar saldo" → "Add funds"
+    Options: $25 | $50 | $100 | $250 | Custom amount…       [CHANGE] MXN amounts → USD equivalents
+    Methods: Credit card | ACH transfer                      [CHANGE] "SPEI" → "ACH transfer"
+
+  Step 2 — Processing:
+    Processing payment…                                      [CHANGE] "Procesando pago…"
+    $50.00 USD · Card ending in 4242                         [CHANGE] $500 MXN → $50 USD
+
+  Step 3 — Confirmation:
+    Funds added successfully!                                [CHANGE] "¡Recarga exitosa!" → "Funds added successfully!"
+    +$50.00 USD added to your balance                        [CHANGE] translated
+    Current balance: $184.70 USD                             [CHANGE] $1,847 MXN → $184.70 USD
+
+
+────────────────────────────────────────
+10. FINAL SERVICES (T1 Ecosystem)
+────────────────────────────────────────
+
+H2: Sell, collect, and ship in one place                     [CHANGE] translated
+
+Description: You focus on selling — T1 handles your store,
+             your shipments, and your payments.              [CHANGE] translated
+
+Card 1 — T1 Store
+  Start selling on marketplaces and connect 10+
+  channels in one place.                                     [CHANGE] translated
+  Features:
+  - AI-powered store builder                                 [CHANGE] "Diseño de tienda con IA" → "AI-powered store builder"
+  - Manage inventory and pricing                             [CHANGE] translated
+  - Detailed reports                                         [CHANGE] translated
+  CTA: Create my store                                       [CHANGE] "Crear mi tienda" → "Create my store"
+
+Card 2 — T1 Payments
+  Receive payments fast and securely with cards,
+  bank transfers, and more.                                  [CHANGE] translated
+  Features:
+  - Payment link                                             [CHANGE] "Link de pago" → "Payment link"
+  - Chargeback dashboard                                     [CHANGE] "Panel de contracargos" → "Chargeback dashboard"
+  - Offer installment plans                                  [CHANGE] "meses sin intereses" → "installment plans"
+  CTA: Create a payment link                                 [CHANGE] translated
+
+Card 3 — T1 Shipping
+  Ship anywhere with the best carriers
+  and the best prices.                                       [CHANGE] "a todo México" → "anywhere" | "paqueterías" → "carriers"
+  Features:
+  - Quote and generate shipping labels                       [CHANGE] "guías de envío" → "shipping labels"
+  - Real-time tracking                                       [CHANGE] translated
+  - Manage delivery exceptions                               [CHANGE] "incidencias" → "delivery exceptions"
+  CTA: Get a quote                                           [CHANGE] "Cotizar envío" → "Get a quote"
+
+
+────────────────────────────────────────
+11. OUR CUSTOMERS (#clientes)
+────────────────────────────────────────
+
+H2: Customer success stories.                                [CHANGE] "Casos de éxito de clientes."
+
+Description: With T1, businesses of all sizes simplify
+             their operations and sell more.                 [CHANGE] translated
+
+Card: Reebok               ✓ keep (global brand)
+  Stat: +300% annual revenue growth                         [CHANGE] "ventas anuales" → "annual revenue growth"
+  Copy: Reebok reduced logistics costs by 45%
+        after integrating T1 Shipping.                      [CHANGE] translated
+
+Card: FILA                 ✓ keep (global brand)
+  Stat: -45% processing time                                [CHANGE] translated
+  Copy: FILA optimized its logistics with T1 Shipping.      [CHANGE] translated
+
+Card: BZPAY                ✓ keep (fintech, globally relatable)
+  Stat: 500K+ transactions evaluated                        [CHANGE] translated
+  Copy: BZPAY improved its fraud prevention
+        system with T1score.                                 [CHANGE] translated
+
+Card: Tekknoshop           ✓ keep (neutral name)
+  Stat: 7,000+ orders synced                                [CHANGE] translated
+  Copy: Tekknoshop handles orders 60% faster
+        with T1 Store.                                       [CHANGE] translated
+
+Card: DecoHome             ✓ keep (neutral name)
+  Stat: 200+ SKUs published across 6 channels               [CHANGE] translated
+  Copy: DecoHome manages its operations like
+        a team 10x its size.                                 [CHANGE] translated
+
+Card: Doto                 ✓ keep (neutral name)
+  Stat: +300% annual growth                                  [CHANGE] translated
+  Copy: Doto scaled its e-commerce with T1 Shipping.        [CHANGE] translated
+
+[REMOVE] PASE              (Mexican toll system)
+[REMOVE] Chicos Olé        (Mexican local brand)
+[REMOVE] Mercadazo         (Mexican marketplace)
+[REMOVE] Sesén             (Mexican local brand)
+[REMOVE] Sears             (not relevant outside Mexico)
+[REMOVE] Sanborns          (Mexican brand)
+[REMOVE] Telcel            (Mexican carrier)
+[REMOVE] Pirma             (Mexican footwear brand)
+[REMOVE] Cruz Azul         (Mexican soccer team)
+[REMOVE] Ticketopolis      (limited global recognition)
+
+
+────────────────────────────────────────
+12. FAQ (#faq)
+────────────────────────────────────────
+
+H2: Frequently Asked Questions                               [CHANGE] "Preguntas Frecuentes"
+
+Description: Transparent, direct, and reliable —
+             just like our platform. Quick answers about
+             shipments, rates, and more.                     [CHANGE] translated
+
+Q: What is T1 Shipping and how does it work?                 [CHANGE] translated
+A: T1 Shipping is a platform to quote, compare, and ship
+   from one place with leading carriers and competitive rates.
+   Create your account in minutes and manage your entire
+   operation: labels, pickups, tracking, exceptions,
+   and reports.                                              [CHANGE] "guías" → "labels" | "incidencias" → "exceptions"
+
+Q: Do I need an online store to use T1 Shipping?             [CHANGE] translated
+A: No. You can use T1 Shipping even if you sell from a
+   physical store, via WhatsApp, Instagram, or marketplaces.
+   If you already have an online store, you can integrate it
+   to centralize all your shipments.                         [CHANGE] translated
+
+Q: Which carriers can I ship with?                           [CHANGE] "paqueterías" → "carriers"
+A: T1 Shipping connects with leading carriers so you can
+   compare rates and delivery times from the same dashboard:
+   FedEx, UPS, DHL, and more.                               [CHANGE] removed Mexican-only carriers | add relevant carriers for target market
+
+Q: What information do I need to get a quote?                [CHANGE] translated
+A: You just need: origin ZIP code, destination ZIP code,
+   package weight and dimensions.                            [CHANGE] translated
+
+Q: How do I pay for my labels?                               [CHANGE] "guías" → "labels"
+A: It works with prepaid balance. You add funds to your
+   account via credit/debit card or ACH transfer.            [CHANGE] "SPEI" → "ACH transfer"
+   Your balance never expires and is deducted
+   as you purchase labels.                                   [CHANGE] translated
+
+Q: Where do I drop off my packages?                          [CHANGE] translated
+A: It depends on the service and carrier. You can drop off
+   at the nearest carrier location or, if available,
+   schedule a home pickup.                                   [CHANGE] "sucursal" → "carrier location" | translated
+
+Q: Can I get invoices for my shipments?                      [CHANGE] translated
+A: Yes. You can request invoices from your account
+   using your tax information (EIN or similar).              [CHANGE] "datos fiscales" → "tax information (EIN or similar)"
+
+
+────────────────────────────────────────
+13. FOOTER CTA
+────────────────────────────────────────
+
+H2: Ready to optimize your shipping with T1?                 [CHANGE] "¿Listo para optimizar tus envíos con T1?"
+
+Description: Centralize, automate, and deliver with the most
+             complete logistics platform in the T1 ecosystem. [CHANGE] translated
+
+CTA: Get started now                                         [CHANGE] "Comienza ahora" → "Get started now"
+
+
+────────────────────────────────────────
+14. FOOTER
+────────────────────────────────────────
+
+Column 1 — Solutions:
+- T1 Store                                                   [CHANGE] "T1tienda" → "T1 Store"
+- T1 Payments                                                [CHANGE] "T1pagos" → "T1 Payments"
+- T1 Shipping                                                [CHANGE] "T1envíos" → "T1 Shipping"
+- T1score                                                    ✓
+
+Column 2 — T1:
+- What is T1?                                                [CHANGE] "¿Qué es T1?" → "What is T1?"
+- Careers                                                    [CHANGE] "Carreras" → "Careers"
+- Press                                                      [CHANGE] "Prensa" → "Press"
+- Contact                                                    [CHANGE] "Contacto" → "Contact"
+
+Locale: 🇺🇸 United States (English)                         [CHANGE] 🇲🇽 México (Español) → 🇺🇸 United States (English)
+
+Legal links:
+- Terms and conditions                                       [CHANGE] "Términos y condiciones" → "Terms and conditions"
+- Privacy policy                                             [CHANGE] "Privacidad" → "Privacy policy"
+
+Copyright: © 2025 T1. All rights reserved.                   [CHANGE] "Todos los derechos reservados." → "All rights reserved."
+
+
+================================================================================
+SUMMARY OF CHANGES BY CATEGORY
+================================================================================
+
+UI / NAVIGATION (6 changes)
+  Iniciar sesión          → Log in
+  Comenzar gratis         → Get started free
+  Comenzar ahora          → Get started
+
+HERO & STATS (5 changes)
+  +40 millones de envíos  → 40M+ shipments delivered
+  +25,000 negocios        → 25,000+ businesses
+  Crear envío             → Create shipment
+  kg only                 → kg + lb conversion added
+
+TERMINOLOGY — SHIPPING (10 changes)
+  paqueterías             → carriers
+  guías de envío          → shipping labels
+  recolección             → pickup
+  almacén                 → warehouse
+  incidencias             → delivery exceptions / exceptions
+  En camino               → In transit
+  En sucursal origen      → Picked up at origin
+  Recolectado             → Picked up
+
+PAYMENTS & BALANCE (5 changes)
+  SPEI                    → ACH transfer
+  Recarga de saldo        → Add funds
+  ¡Recarga exitosa!       → Funds added successfully!
+  Amounts in MXN          → Amounts in USD
+  meses sin intereses     → installment plans
+
+GEOGRAPHY (8 changes)
+  CDMX                    → NYC (New York City)
+  MTY (Monterrey)         → LA (Los Angeles)
+  GDL (Guadalajara)       → CHI (Chicago)
+  Insurgentes 100, CDMX   → 123 Main St, New York, NY
+  app.t1envios.com        → app.t1shipping.com
+
+CARRIERS (4 changes)
+  AMPM, 99 Minutos, J&T, Paquetexpress → OnTrac, USPS (for US market)
+  FedEx, UPS, DHL         ✓ kept (global carriers)
+
+MARKETPLACES (3 changes)
+  Sears                   → eBay
+  Sanborns                → Etsy
+  Coppel                  → Target
+
+PRODUCT NAMES (3 changes)
+  T1tienda                → T1 Store
+  T1pagos                 → T1 Payments
+  T1envíos                → T1 Shipping
+
+CUSTOMERS / CASE STUDIES (10 cards removed)
+  Removed: PASE, Chicos Olé, Mercadazo, Sesén, Sears, Sanborns,
+           Telcel, Pirma, Cruz Azul, Ticketopolis
+
+FOOTER (4 changes)
+  Términos y condiciones  → Terms and conditions
+  Privacidad              → Privacy policy
+  Todos los derechos…     → All rights reserved.
+  🇲🇽 México (Español)   → 🇺🇸 United States (English)
+
+LEGAL / TAX (2 changes)
+  datos fiscales          → tax information (EIN or similar)
+  facturas (MX context)   → invoices
+
+================================================================================
+END OF DOCUMENT
+================================================================================

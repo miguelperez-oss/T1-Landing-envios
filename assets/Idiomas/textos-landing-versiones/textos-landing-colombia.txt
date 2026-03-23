@@ -1,0 +1,485 @@
+================================================================================
+TEXTOS DE LA LANDING PAGE — T1 ENVÍOS
+Versión: COLOMBIA 🇨🇴
+Basado en: textos-landing.txt (versión México 🇲🇽)
+
+Convención de marcas:
+  [CAMBIO]  → texto modificado respecto a la versión México
+  [NUEVO]   → elemento nuevo que no existía en México
+  [QUITAR]  → elemento que debe eliminarse en la versión Colombia
+================================================================================
+
+
+────────────────────────────────────────
+1. HEADER (Navegación)
+────────────────────────────────────────
+
+Nav links:
+- Ecosistema
+- ¿Qué es T1Envíos?
+- Iniciar sesión
+- Comenzar gratis
+
+Menú móvil:
+- Ecosistema
+- ¿Qué es T1Envíos?
+- Iniciar sesión
+- Comenzar ahora
+
+✓ Sin cambios en esta sección.
+
+
+────────────────────────────────────────
+2. HERO
+────────────────────────────────────────
+
+H1: Todos tus envíos.
+    Un solo lugar.
+    Las mejores tarifas.
+
+Descripción: Cotiza, envía y entrega con la mejor experiencia del mercado.
+
+CTA: Comenzar ahora
+
+Stats:
+- +40 millones de envíos entregados
+- +25,000 negocios
+
+Panel cotizador (hero):
+  Encabezado: Grupo ampm                        [CAMBIO] → Ver nota paqueterías abajo
+  Guía: Servientrega : 77452320977452           [CAMBIO] FedEx → Servientrega
+  No. de pedido: 774523209
+  1 pieza · 0.5 kg
+
+  Columnas: Paquetería | Fecha estimada | Ventajas
+
+  Servientrega   Mismo día · 24H    24 de ene    Más rápido       $18,000    Crear envío   [CAMBIO] FedEx → Servientrega | Precio en COP
+  Coordinadora   Económico · 2Días  26 de ene    Mejor servicio   $14,500    Crear envío   [CAMBIO] UPS → Coordinadora | Precio en COP
+  Interrapidísimo Mismo día · 2Hrs  28 de ene    Mejor servicio   $16,800    Crear envío   [CAMBIO] DHL → Interrapidísimo | Precio en COP
+  TCC            Estándar           5 de feb                      $12,900    Crear envío   [CAMBIO] AMPM → TCC | Precio en COP
+  Deprisa        Estándar           6 de feb                      $11,500    Crear envío   [CAMBIO] Paquetexpress → Deprisa | Precio en COP
+
+Logos orbitales (paqueterías):
+  [CAMBIO] UPS, FedEx, DHL, AMPM, 99 Minutos, J&T, Paquetexpress
+        →  Servientrega, Coordinadora, Interrapidísimo, TCC, Deprisa, DHL, FedEx
+
+
+────────────────────────────────────────
+3. MARCAS MARQUEE (Trust logos)
+────────────────────────────────────────
+
+Texto: Con la confianza de más de 25,000 negocios de todos los tamaños
+
+Logos (grayscale):
+  [QUITAR]  Círculo de Crédito  (buró de crédito mexicano)
+  [QUITAR]  Telcel              (operadora mexicana)
+  [CAMBIO]  Claro               → mantener (opera en Colombia ✓)
+  [CAMBIO]  Estée Lauder        → mantener (marca global ✓)
+  [CAMBIO]  Plata               → mantener si opera en CO, o reemplazar
+  [CAMBIO]  Sears               → reemplazar por Falabella o Éxito
+  [NUEVO]   Falabella           (retail líder en Colombia)
+  [NUEVO]   Éxito               (retail líder en Colombia)
+  [NUEVO]   Bancolombia         (opcional, refuerza confianza financiera)
+
+
+────────────────────────────────────────
+4. SECTION CARDS (Servicios principales)
+────────────────────────────────────────
+
+H2: Simplifica tus envíos con T1 Envíos
+
+Descripción: Gestiona cotizaciones, envíos y seguimiento de todas tus operadoras
+             desde una única plataforma web.           [CAMBIO] "paqueterías" → "operadoras" (término más común en CO)
+
+Card 1 — Cotiza
+  Descubre y compara las mejores tarifas y tiempos de entrega
+  entre las principales transportadoras de Colombia.    [CAMBIO] "paqueterías" → "transportadoras"; "mejores paqueterías" → "de Colombia"
+  CTA: Cotiza ahora
+
+Card 2 — Envía
+  Genera guías de envío a toda Colombia, crea plantillas
+  predeterminadas de tus paquetes y solicita recolección
+  a tu bodega.                                          [CAMBIO] "todo México" → "toda Colombia" | "almacén" → "bodega" (término CO)
+  CTA: Realiza un envío
+
+Card 3 — Seguimiento
+  Conoce la ubicación de tus paquetes en todo momento,
+  realiza el seguimiento de novedades y dales solución   [CAMBIO] "incidencias" → "novedades" (término logístico estándar en CO)
+  desde T1.
+  CTA: Rastrea un envío
+
+
+────────────────────────────────────────
+5. INTEGRA CANALES (#marcas-t1)
+────────────────────────────────────────
+
+H2: Integra tus canales de venta y automatiza tus envíos.
+
+Descripción: Sincroniza pedidos, direcciones y estados de envío con T1tiendas,
+             Falabella, Éxito, Shopify, Mercado Libre, Amazon, Shein y más.   [CAMBIO] Sears/Sanborns → Falabella/Éxito
+             Tus pedidos se actualizan automáticamente y tus guías se generan
+             en segundos.
+
+CTA: Comenzar ahora
+
+Logos flotantes (marketplaces):
+  [CAMBIO]  Sears     → Falabella
+  [CAMBIO]  Sanborns  → Éxito
+  [CAMBIO]  Coppel    → Rappi           [NUEVO] Rappi opera fuerte en CO
+  - T1tienda          ✓
+  - Shein             ✓
+  - TikTok Shop       ✓
+  - AliExpress        ✓
+  - Shopify           ✓
+  - Mercado Libre     ✓
+  - Amazon            ✓
+  - Walmart           ✓ (opera en CO)
+  - WooCommerce       ✓
+  - Cloud             ✓
+
+
+────────────────────────────────────────
+6. TARIFAS (#tarifas)
+────────────────────────────────────────
+
+H2: Compara tarifas, ventajas y tiempos de entrega de todos tus envíos.
+Descripción: Calcula, elige y crea tu envío al instante, todo desde un mismo lugar.
+
+CTA: Cotizar ahora
+
+Tabs: Cotizador | Recolección | Mis envíos
+
+--- Slide 1: Cotizador ---
+  URL mockup: app.t1envios.com/cotizar
+  Título: Cotizador — Resultados para Bogotá → Medellín, 2kg   [CAMBIO] CDMX → Bogotá | MTY → Medellín
+
+  Servientrega   Servi Express         1–2 días hábiles    Más rápido    $22,500    Crear envío   [CAMBIO] DHL/precios MXN → Servientrega/precios COP
+  Coordinadora   Coordinadora Stnd.    2–3 días hábiles    Mejor precio  $14,900    Crear envío   [CAMBIO] FedEx → Coordinadora
+  Interrapidísimo Inter Express        3–4 días hábiles                  $16,500    Crear envío   [CAMBIO] UPS → Interrapidísimo
+  Deprisa        Deprisa Nacional      Same day                          $28,000    Crear envío   [CAMBIO] 99min → Deprisa
+
+--- Slide 2: Recolección ---
+  Título: Crear recolección — Horario confirmado
+
+  Paquetería: Coordinadora Nacional                           [CAMBIO] FedEx Standard → Coordinadora Nacional
+  Fecha: Hoy, 14:00–18:00
+  Dirección: Carrera 7 #45-23, Bogotá                        [CAMBIO] Insurgentes 100, CDMX → Carrera 7 #45-23, Bogotá
+  Estado: Confirmado ✓
+  ✓ El mensajero estará en tu dirección de 14:00 a 18:00 hrs.
+
+--- Slide 3: Mis envíos ---
+  Título: Mis envíos — Últimas guías
+
+  7745320977452    Servientrega · Entregado hoy 10:32am       Entregado    [CAMBIO] DHL → Servientrega
+  794658401724     Coordinadora · En camino                   En tránsito  [CAMBIO] FedEx → Coordinadora
+  1ZA765780190     Interrapidísimo · En bodega origen         Recolectado  [CAMBIO] UPS → Interrapidísimo | "sucursal" → "bodega"
+  9400111899223    Deprisa · Pendiente                        Pendiente    [CAMBIO] 99 Minutos → Deprisa
+
+
+────────────────────────────────────────
+7. REPORTES (#reportes)
+────────────────────────────────────────
+
+H2: Visualiza mejores reportes para tomar mejores decisiones.
+Descripción: Visualiza en tiempo real el estado de tus envíos, costos y desempeño
+             de las transportadoras. Convierte tus datos en decisiones más rentables.   [CAMBIO] "paqueterías" → "transportadoras"
+
+CTA: Comenzar ahora
+
+Tabs: Reportes | Novedades                                    [CAMBIO] "Incidencias" → "Novedades" (término logístico CO)
+
+--- Tab 1: Reportes ---
+  URL mockup: app.t1envios.com/reportes
+  Título: Dashboard de Reportes — Julio 2025
+
+  Envíos este mes: 3,482
+  Costo promedio/envío: $16,800 COP                          [CAMBIO] $87 MXN → $16,800 COP
+  Tasa de entrega: 96.4%
+  Ahorro vs. ventanilla: $1,420,000 COP                      [CAMBIO] "mostrador" → "ventanilla" (término CO) | $14,280 MXN → $1,420,000 COP
+  +12% vs mes anterior
+
+--- Tab 2: Novedades ---                                      [CAMBIO] "Incidencias" → "Novedades"
+  Título: Gestión de Novedades — 8 activas                   [CAMBIO] ídem
+
+  📦 Sin movimiento — Servientrega #4829    Bogotá · 3 días sin actualización    En revisión   [CAMBIO] DHL → Servientrega | CDMX → Bogotá
+  ❌ Dirección incorrecta — Coordinadora #7103  MDE · Requiere corrección         Urgente       [CAMBIO] FedEx → Coordinadora | MTY → MDE (Medellín)
+  ✓  Reentrega exitosa — Interrapidísimo #5512  CAL · Solucionada hoy            Resuelta      [CAMBIO] UPS → Interrapidísimo | GDL → CAL (Cali)
+  🔍 Paquete extraviado — TCC #2291        Bogotá · Investigación abierta        En proceso    [CAMBIO] 99min → TCC | CDMX → Bogotá
+
+
+────────────────────────────────────────
+8. SEGUIMIENTO (#seguir)
+────────────────────────────────────────
+
+H2: Sigue tus envíos fácil y rápido.
+Descripción: Monitorea tus entregas desde un solo panel y recibe avisos automáticos
+             sobre el estado de cada paquete. Siempre sabrás dónde está y cuándo llega.
+
+Bullets:
+- Monitorea entregas en tiempo real desde tu panel.
+- Recibe alertas automáticas por retrasos o entregas completadas.
+- Mantén a tus clientes informados sin hacer seguimiento manual.
+
+CTA: Comenzar ahora
+
+Mockup tracking list:
+  URL: app.t1envios.com/rastreo
+
+  7745320977452      Servientrega   Entregado · Hoy 10:32am        Entregado    [CAMBIO] FedEx → Servientrega
+  794658401724       Coordinadora   En camino · Llegará hoy        En tránsito  [CAMBIO] UPS → Coordinadora
+  2849582019202      Interrapidísimo Recolectado · 08:15am         Recolectado  [CAMBIO] DHL → Interrapidísimo
+  9400118999223      Deprisa        Pendiente recolección          Pendiente    [CAMBIO] 99min → Deprisa
+  483920192001       TCC            Entregado · Ayer 14:05pm       Entregado    [CAMBIO] AMPM → TCC
+  7029384756291      Coordinadora   En distribución · MDE          En tránsito  [CAMBIO] FedEx → Coordinadora | GDL → MDE
+
+  (Lista se repite en scroll continuo)
+
+
+────────────────────────────────────────
+9. RECARGAS (#recarga)
+────────────────────────────────────────
+
+H2: Recarga fácil y empieza a enviar hoy mismo
+Descripción: Carga saldo con tu tarjeta o pago por PSE y paga tus envíos en segundos.   [CAMBIO] "transferencia SPEI" → "pago por PSE"
+             Control total, sin costos extras ni procesos complicados.
+
+Bullets:
+- Añade saldo fácilmente con tarjeta de crédito/débito o por PSE.   [CAMBIO] "SPEI" → "PSE"
+- Activa la recarga automática y asegúrate de que tus envíos nunca se detengan.
+- Recibe comprobantes y reportes automáticos de cada transacción.
+
+CTA: Comenzar ahora
+
+Mockup recarga (3 pasos):
+  URL: app.t1envios.com/recargas
+
+  Paso 1 — Selecciona monto:
+    Título: Recargar saldo — Selecciona monto
+    Opciones: $20,000 | $50,000 | $100,000 | $200,000 | Otro monto…   [CAMBIO] Montos MXN → COP equivalentes
+    Métodos: Tarjeta | PSE                                              [CAMBIO] "SPEI" → "PSE"
+
+  Paso 2 — Procesando:
+    Procesando pago…
+    $50,000 COP · Tarjeta terminada en 4242                            [CAMBIO] $500 MXN → $50,000 COP
+
+  Paso 3 — Confirmación:
+    ¡Recarga exitosa!
+    +$50,000 COP añadidos a tu saldo                                   [CAMBIO] $500 MXN → $50,000 COP
+    Saldo actual: $184,700 COP                                         [CAMBIO] $1,847 MXN → $184,700 COP
+
+
+────────────────────────────────────────
+10. SERVICIOS FINALES (Ecosistema T1)
+────────────────────────────────────────
+
+H2: Vende, cobra y envía en un solo lugar
+Descripción: Tú te enfocas en vender y T1 te ayuda con tu tienda, tus envíos y tus pagos.
+
+Card 1 — T1tienda
+  Comienza a vender en marketplaces y conecta más de 10 canales en un solo lugar.
+  Features:
+  - Diseño de tienda con IA
+  - Gestiona inventarios y precios
+  - Reportes detallados
+  CTA: Crear mi tienda
+
+Card 2 — T1pagos
+  Recibe pagos de forma rápida y segura con tarjetas, PSE y más.   [CAMBIO] "transferencias" → "PSE"
+  Features:
+  - Link de pago
+  - Panel de contracargos
+  - Ofrece cuotas sin interés                                        [CAMBIO] "meses sin intereses" → "cuotas sin interés"
+  CTA: Crear link de pago
+
+Card 3 — T1envíos
+  Envía a toda Colombia con las mejores transportadoras              [CAMBIO] "todo México" → "toda Colombia" | "paqueterías" → "transportadoras"
+  y los mejores precios.
+  Features:
+  - Cotiza y crea guías de envío
+  - Rastreo en tiempo real
+  - Administra tus novedades                                         [CAMBIO] "incidencias" → "novedades"
+  CTA: Cotizar envío
+
+
+────────────────────────────────────────
+11. NUESTROS CLIENTES (#clientes)
+────────────────────────────────────────
+
+H2: Casos de éxito de clientes.
+Descripción: Con T1, comercios de distintos tamaños simplifican su operación y venden más.
+
+NOTA: Las siguientes tarjetas son de clientes mexicanos. Para Colombia se recomienda:
+  a) Mantener marcas globales presentes en CO (Reebok, FILA)
+  b) Reemplazar marcas 100% mexicanas por referencias genéricas o clientes CO reales
+  c) Las tarjetas marcadas [QUITAR] deberían eliminarse o reemplazarse
+
+Card: Reebok               ✓ mantener (marca global, opera en CO)
+  Stat: +300% en ventas anuales
+  Texto: Reebok redujo 45% sus costos logísticos al integrar T1envíos.
+
+Card: FILA                 ✓ mantener (marca global, opera en CO)
+  Stat: -45% en tiempos de procesamiento
+  Texto: FILA optimizó su logística con T1envíos.
+
+Card: BZPAY                ✓ mantener si opera en CO, si no reemplazar
+  Stat: +500k transacciones evaluadas
+  Texto: BZPAY mejoró su sistema de prevención de fraudes con T1score.
+
+Card: Tekknoshop           ✓ mantener (ecommerce genérico, creíble)
+  Stat: +7,000 pedidos sincronizados
+  Texto: Tekknoshop atiende pedidos 60% más rápido con T1tienda.
+
+Card: DecoHome             ✓ mantener (nombre neutro)
+  Stat: +200 SKUs publicados en 6 canales
+  Texto: DecoHome gestiona su operación como un equipo 10x más grande.
+
+Card: Doto                 ✓ mantener (nombre neutro)
+  Stat: +300% crecimiento anual
+  Texto: Doto escaló su ecommerce con T1envíos.
+
+Card: PASE                 [QUITAR] sistema de autopistas mexicano, no relevante en CO
+Card: Chicos Olé           [QUITAR] marca local mexicana
+Card: Mercadazo            [QUITAR] marketplace mexicano
+Card: Sesén                [QUITAR] marca local mexicana
+Card: Sears                [QUITAR] no opera en Colombia
+Card: Sanborns             [QUITAR] no existe en Colombia
+Card: Telcel               [QUITAR] operadora mexicana
+Card: Pirma                [QUITAR] marca de calzado mexicana
+Card: Cruz Azul            [QUITAR] equipo de fútbol mexicano
+Card: Ticketopolis         [QUITAR / evaluar] poco conocida en CO
+
+
+────────────────────────────────────────
+12. FAQ (#faq)
+────────────────────────────────────────
+
+H2: Preguntas Frecuentes
+Descripción: Transparente, directo y confiable, como nuestra plataforma.
+             Aquí tienes respuestas rápidas sobre envíos, tarifas y más.
+
+P: ¿Qué es T1 Envíos y cómo funciona?
+R: T1 Envíos es una plataforma para cotizar, comparar y enviar desde un solo lugar
+   con transportadoras líderes y tarifas competitivas.                [CAMBIO] "paqueterías líderes" → "transportadoras líderes"
+   En minutos creas tu cuenta y puedes administrar toda tu operación:
+   guías, recolecciones, seguimiento, novedades y reportes.          [CAMBIO] "incidencias" → "novedades"
+
+P: ¿Necesito tener una tienda en línea para usar T1 Envíos?
+R: No. Puedes usar T1 Envíos aunque vendas desde tienda física,
+   por WhatsApp, Instagram o marketplaces. Y si ya tienes tienda
+   en línea, también puedes integrarlo para centralizar tus envíos.
+
+P: ¿Con qué transportadoras puedo enviar?                            [CAMBIO] "paqueterías" → "transportadoras"
+R: T1 Envíos se conecta con las principales transportadoras de Colombia   [CAMBIO]
+   para que compares tarifas y tiempos de entrega desde el mismo panel:
+   Servientrega, Coordinadora, Interrapidísimo, TCC, Deprisa y DHL.  [CAMBIO] UPS/FedEx/AMPM/99min → transportadoras CO
+
+P: ¿Qué información necesito para cotizar un envío?
+R: Solo necesitas: código postal de origen, código postal de destino,
+   peso y medidas del paquete.
+   (En Colombia el código postal tiene 6 dígitos.)                   [NUEVO] aclaración útil para usuarios CO
+
+P: ¿Cómo funciona el pago de mis guías?
+R: Funciona con saldo prepago. Depositas saldo a tu cuenta vía PSE    [CAMBIO] "transferencia SPEI" → "PSE"
+   o tarjeta de crédito/débito. El saldo no tiene vigencia y se va
+   descontando conforme compras guías.
+
+P: ¿Dónde entrego mis paquetes?
+R: Depende del servicio y la transportadora.                          [CAMBIO] "paquetería" → "transportadora"
+   Puedes entregar tu paquete en el punto de recaudo más cercano     [CAMBIO] "sucursal" → "punto de recaudo" (término CO)
+   o, si está disponible, solicitar recolección a domicilio.
+
+P: ¿Puedo facturar mis envíos?
+R: Sí. Puedes solicitar tu factura desde tu cuenta con tu RUT         [CAMBIO] "datos fiscales" → "RUT" (equivalente colombiano)
+   y datos de facturación.
+
+
+────────────────────────────────────────
+13. FOOTER CTA
+────────────────────────────────────────
+
+H2: ¿Listo para optimizar tus envíos con T1?
+Descripción: Centraliza, automatiza y entrega con la plataforma logística
+             más completa del ecosistema T1.
+
+CTA: Comienza ahora
+
+✓ Sin cambios en esta sección.
+
+
+────────────────────────────────────────
+14. FOOTER
+────────────────────────────────────────
+
+Columna 1 — Soluciones:
+- T1tienda
+- T1pagos
+- T1envíos
+- T1score
+
+Columna 2 — T1:
+- ¿Qué es T1?
+- Carreras
+- Prensa
+- Contacto
+
+Locale: 🇨🇴 Colombia (Español)                                        [CAMBIO] 🇲🇽 México → 🇨🇴 Colombia
+
+Links legales:
+- Términos y condiciones
+- Privacidad
+
+Copyright: © 2025 T1. Todos los derechos reservados.                  ✓ Sin cambio
+
+
+================================================================================
+RESUMEN DE CAMBIOS POR CATEGORÍA
+================================================================================
+
+TERMINOLOGÍA LOGÍSTICA (9 cambios)
+  paqueterías       → transportadoras / operadoras
+  incidencias       → novedades
+  almacén           → bodega
+  mostrador         → ventanilla
+  sucursal          → punto de recaudo
+  datos fiscales    → RUT
+
+PAGOS Y MONEDA (7 cambios)
+  SPEI              → PSE
+  Montos en MXN     → Montos en COP (factor aprox. ×100)
+  meses sin intereses → cuotas sin interés
+
+GEOGRAFÍA (8 cambios)
+  CDMX              → Bogotá
+  MTY (Monterrey)   → MDE (Medellín)
+  GDL (Guadalajara) → CAL (Cali)
+  todo México       → toda Colombia
+
+TRANSPORTADORAS (7 cambios)
+  FedEx             → Servientrega (como referente principal)
+  UPS               → Coordinadora
+  DHL               → Interrapidísimo
+  AMPM              → TCC
+  Paquetexpress     → Deprisa
+  99 Minutos        → Deprisa (same day)
+  J&T               → DHL (mantiene presencia en CO)
+
+MARKETPLACES / RETAIL (3 cambios)
+  Sears             → Falabella
+  Sanborns          → Éxito
+  Coppel            → Rappi
+
+MARCAS MARQUEE (3 cambios)
+  Círculo de Crédito → [eliminar]
+  Telcel             → [eliminar]
+  Sears              → Falabella o Éxito
+
+CLIENTES / CASOS DE ÉXITO (10 tarjetas a quitar)
+  Quitar: PASE, Chicos Olé, Mercadazo, Sesén, Sears, Sanborns,
+          Telcel, Pirma, Cruz Azul, Ticketopolis (evaluar)
+
+FOOTER (1 cambio)
+  🇲🇽 México (Español) → 🇨🇴 Colombia (Español)
+
+================================================================================
+FIN DEL DOCUMENTO
+================================================================================
