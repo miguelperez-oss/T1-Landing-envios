@@ -671,11 +671,11 @@ footer{background:#000;padding:64px 0 32px;color:#9CA3AF}
   .hero-inner{display:flex;flex-direction:column;align-items:flex-start;gap:0;min-height:auto;padding-top:40px}
   .hero-left{display:contents!important}
   .hero-title{order:1;text-align:left;margin-bottom:14px;width:100%}
-  .hero-desc{order:2;text-align:left;margin:0 0 28px;max-width:100%;font-size:18px;line-height:1.6;color:#444}
+  .hero-desc{order:2;text-align:left;margin:0 0 28px;max-width:100%;font-size:16px;line-height:1.6;color:#444}
   .hero-right{order:3;width:100%;position:relative;height:auto;min-height:280px;display:flex;flex-direction:column;align-items:center;gap:24px;margin-bottom:24px}
   .hero-scene{position:relative;width:100%;display:flex;flex-direction:column;align-items:center;height:auto}
   /* Banner panel: static flow, not absolute — show BEFORE logos */
-  .hero-panel-main{position:relative;top:auto;left:auto;transform:none;width:92%;max-width:380px;margin:0 auto;order:1}
+  .hero-panel-main{position:relative;top:auto;left:auto;transform:none;width:calc(100% - 32px);max-width:343px;margin:0 auto;order:1}
   /* Hide secondary panels */
   .hero-panel-status,.hero-panel-quoter,.hero-panel-transit{display:none}
   /* Orbital halo: hide ring/glow, show logos as horizontal row — AFTER banner */
@@ -683,20 +683,28 @@ footer{background:#000;padding:64px 0 32px;color:#9CA3AF}
   .hero-halo-ring,.hero-halo-glow{display:none}
   .halo-logo-wrap{position:relative!important;top:auto!important;left:auto!important;margin:0!important;animation:none!important;width:44px;height:44px}
   .halo-logo{width:44px;height:44px}
-  .hero-cta-btn{order:4;max-width:100%;width:92%;margin-bottom:20px;align-self:center;height:62px;font-size:18px;border-radius:18px}
-  .hero-stats{order:5;justify-content:center;text-align:center;width:100%}
-  .cards-grid{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;padding-bottom:8px;scrollbar-width:none;user-select:none;-webkit-user-select:none}
-  .cards-grid::-webkit-scrollbar{display:none}
-  .cards-grid .card{min-width:75vw;max-width:300px;flex-shrink:0;scroll-snap-align:start}
+  .hero-cta-btn{order:4;max-width:100%;width:calc(100% - 34px);margin-bottom:20px;align-self:center;height:45px;font-size:16px;border-radius:18px}
+  .hero-stats{order:5;justify-content:center;text-align:center;width:100%;font-size:16px;font-weight:600}
+  .cards-grid{display:flex;flex-direction:column;gap:16px;overflow-x:visible;padding-bottom:0}
+  .cards-grid .card{min-width:unset;max-width:none;width:100%;flex-shrink:unset}
+  .section-header{text-align:left;margin-bottom:32px}
+  .section-header h2{font-size:24px;line-height:1.25}
   .sf-cards{grid-template-columns:1fr;gap:20px}
-  .two-col{grid-template-columns:1fr;gap:40px}
+  .two-col{grid-template-columns:1fr;gap:32px}
   .two-col.reverse{direction:ltr}
+  #seguir,#recarga{padding:64px 0}
+  #seguir .section-text h2,#recarga .section-text h2{font-size:24px;line-height:1.25}
+  .feature-list li{font-size:14px}
+  #tarifas h2,#reportes h2{font-size:24px;line-height:1.25}
+  .reportes-header-text p{font-size:14px}
   .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
   .section-text-header{flex-direction:column}
   .section-text-header .btn-primary{align-self:flex-start}
   .reportes-header{flex-direction:column}
-  .reportes-header>div{flex-direction:column;align-items:flex-start;gap:20px}
+  .reportes-header>div{flex-direction:column;align-items:flex-start;gap:16px}
   .reportes-header .btn-primary{align-self:flex-start}
+  #tarifas>div>div:first-child>div{flex-direction:column;align-items:flex-start;gap:16px}
+  #tarifas .btn-primary{align-self:flex-start}
   .floating-apps{display:none}
   .marcas-t1-inner{padding:0 24px}
   .marcas-t1-mobile-logos{display:flex}
@@ -705,6 +713,7 @@ footer{background:#000;padding:64px 0 32px;color:#9CA3AF}
   .bm-label{font-size:16px;line-height:22px}
 }
 @media(max-width:640px){
+  .hero-title{font-size:32px!important;line-height:36px!important;letter-spacing:-0.96px}
   .hero-title .line1,.hero-title .line2,.hero-title .line3{white-space:normal}
   section{padding:64px 0}
   #hero{padding:40px 0 60px}
@@ -713,15 +722,27 @@ footer{background:#000;padding:64px 0 32px;color:#9CA3AF}
   .btn-primary.header-cta{display:none}
   .hamburger{display:flex}
   .hero-stats{gap:8px;flex-wrap:wrap}
-  .hero-cta-btn{max-width:100%;height:64px;font-size:18px}
+  .hero-cta-btn{max-width:100%;width:calc(100% - 34px);height:45px;font-size:16px}
   .footer-grid{grid-template-columns:1fr}
   .footer-bottom{flex-direction:column;align-items:flex-start;gap:12px}
   .hero-right{min-height:auto}
-  .halo-logo-wrap{width:40px;height:40px}
-  .halo-logo{width:40px;height:40px}
+  .halo-logo-wrap{width:35px;height:35px}
+  .halo-logo{width:35px;height:35px}
   .hero-halo{gap:8px}
-  .hero-stats{flex-direction:column;align-items:center;gap:4px}
+  .hero-stats{flex-direction:column;align-items:center;gap:4px;font-size:16px;font-weight:600}
   .hero-stat-dot{display:none}
+  .section-header{margin-bottom:24px}
+  .section-header p{font-size:14px}
+  .clientes-header h2{font-size:24px;line-height:1.25}
+  .faq-header h2{font-size:24px;line-height:1.25}
+  .faq-question span{font-size:14px}
+  .faq-answer-inner p{font-size:13px}
+  #footer-cta{padding:64px 0}
+  .footer-cta-inner h2{font-size:24px!important;line-height:1.25!important}
+  .footer-cta-inner p{font-size:14px}
+  .cliente-card{width:280px;height:190px}
+  .cliente-stat{font-size:16px}
+  .cliente-desc{font-size:12px}
   .bm-inner{flex-direction:column;align-items:center;gap:16px;padding:24px 20px}
   .bm-text{width:100%;text-align:center}
   .bm-label{font-size:16px;line-height:22px}
