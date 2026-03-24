@@ -34,6 +34,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="styles.css"/>
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+<!-- End Google Tag Manager -->
+
 <!-- JSON-LD: Organization -->
 <script type="application/ld+json">
 {
@@ -124,6 +132,10 @@
 </script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <!-- HERO + MARCAS + HEADER: gradiente unificado -->
 <div class="hero-gradient-zone">
@@ -1193,5 +1205,265 @@ var MT1_LOGOS = [
 })();
 
 </script>
+
+<!-- ====== GA4 dataLayer Events ====== -->
+<script>
+window.dataLayer = window.dataLayer || [];
+
+(function(){
+  function pushEvent(name, params){
+    var data = {event: name};
+    if(params) for(var k in params) data[k] = params[k];
+    window.dataLayer.push(data);
+  }
+
+  /* ── 1. CTAs DE CONVERSIÓN ── */
+
+  // Header — Comenzar gratis
+  var headerCta = document.querySelector('a.btn-primary.header-cta');
+  if(headerCta) headerCta.addEventListener('click', function(){
+    pushEvent('cta_comenzar_gratis', {cta_location: 'header'});
+  });
+
+  // Header — Iniciar sesión
+  var loginBtn = document.querySelector('a.header-login');
+  if(loginBtn) loginBtn.addEventListener('click', function(){
+    pushEvent('cta_iniciar_sesion', {cta_location: 'header'});
+  });
+
+  // Hero — Comenzar ahora
+  var heroCta = document.querySelector('a.hero-cta-btn');
+  if(heroCta) heroCta.addEventListener('click', function(){
+    pushEvent('cta_comenzar_ahora', {cta_location: 'hero'});
+  });
+
+  // CTAs por sección
+  var sectionCtas = [
+    {sel: '#tarifas a.btn-primary',    event: 'cta_cotizar_ahora',  loc: 'tarifas'},
+    {sel: '#marcas-t1 a.btn-primary',  event: 'cta_comenzar_ahora', loc: 'integraciones'},
+    {sel: '#reportes a.btn-primary',   event: 'cta_comenzar_ahora', loc: 'reportes'},
+    {sel: '#seguir a.btn-primary',     event: 'cta_comenzar_ahora', loc: 'seguimiento'},
+    {sel: '#recarga a.btn-primary',    event: 'cta_comenzar_ahora', loc: 'recargas'},
+    {sel: '#footer-cta a.btn-primary', event: 'cta_comenzar_ahora', loc: 'footer_cta'}
+  ];
+  sectionCtas.forEach(function(item){
+    var el = document.querySelector(item.sel);
+    if(el) el.addEventListener('click', function(){
+      pushEvent(item.event, {cta_location: item.loc});
+    });
+  });
+
+  // Servicios Finales — Crear tienda / Link de pago / Cotizar envío
+  var sfCtas = document.querySelectorAll('a.sf-cta');
+  sfCtas.forEach(function(el){
+    el.addEventListener('click', function(){
+      var text = el.textContent.trim().toLowerCase();
+      var evName = 'cta_servicio_final';
+      if(text.indexOf('tienda') > -1)  evName = 'cta_crear_tienda';
+      if(text.indexOf('link') > -1)    evName = 'cta_crear_link_pago';
+      if(text.indexOf('cotizar') > -1) evName = 'cta_cotizar_envio';
+      pushEvent(evName, {cta_location: 'servicios_finales', cta_text: text});
+    });
+  });
+
+  // Mobile nav
+  var mobileNavLinks = document.querySelectorAll('.mobile-nav a');
+  mobileNavLinks.forEach(function(el){
+    el.addEventListener('click', function(){
+      var text = el.textContent.trim();
+      if(el.classList.contains('btn-primary')){
+        pushEvent('cta_comenzar_ahora', {cta_location: 'mobile_nav'});
+      } else {
+        pushEvent('nav_link_click', {cta_location: 'mobile_nav', link_text: text});
+      }
+    });
+  });
+
+  /* ── 2. CARDS DE SERVICIOS ── */
+  var cardLinks = document.querySelectorAll('#servicios a.card-link');
+  cardLinks.forEach(function(el){
+    el.addEventListener('click', function(){
+      var text = el.textContent.trim();
+      var action = 'card_click';
+      if(text.indexOf('Cotiza') > -1)  action = 'card_click_cotiza';
+      if(text.indexOf('envío') > -1)   action = 'card_click_envia';
+      if(text.indexOf('Rastrea') > -1) action = 'card_click_rastrea';
+      pushEvent(action, {card_text: text});
+    });
+  });
+
+  /* ── 3. FAQ ── */
+  var faqButtons = document.querySelectorAll('button.faq-question');
+  faqButtons.forEach(function(btn, idx){
+    btn.addEventListener('click', function(){
+      pushEvent('faq_open', {
+        faq_index: idx + 1,
+        faq_question: btn.textContent.trim().substring(0, 80)
+      });
+    });
+  });
+
+  /* ── 4. CARRUSEL CLIENTES ── */
+  var prevBtn = document.getElementById('clientes-prev');
+  var nextBtn = document.getElementById('clientes-next');
+  if(prevBtn) prevBtn.addEventListener('click', function(){
+    pushEvent('clientes_carousel', {direction: 'prev'});
+  });
+  if(nextBtn) nextBtn.addEventListener('click', function(){
+    pushEvent('clientes_carousel', {direction: 'next'});
+  });
+
+  var dotsContainer = document.getElementById('clientes-dots');
+  if(dotsContainer) dotsContainer.addEventListener('click', function(e){
+    if(e.target.classList.contains('dot') || e.target.closest('.dot')){
+      pushEvent('clientes_carousel', {direction: 'dot'});
+    }
+  });
+
+  /* ── 5. NAV LINKS ── */
+  var navLinks = document.querySelectorAll('a.header-nav-link');
+  navLinks.forEach(function(el){
+    el.addEventListener('click', function(){
+      pushEvent('nav_link_click', {cta_location: 'header', link_text: el.textContent.trim()});
+    });
+  });
+
+  var hamburger = document.getElementById('hamburger');
+  if(hamburger) hamburger.addEventListener('click', function(){
+    pushEvent('hamburger_menu_open');
+  });
+
+  /* ── 6. REDES SOCIALES ── */
+  var socialBtns = document.querySelectorAll('a.social-btn');
+  socialBtns.forEach(function(el){
+    el.addEventListener('click', function(){
+      pushEvent('social_click', {social_network: el.getAttribute('aria-label') || 'unknown'});
+    });
+  });
+
+  /* ── 7. FOOTER LINKS ── */
+  var footer = document.querySelector('footer');
+  if(footer){
+    footer.querySelectorAll('a').forEach(function(el){
+      el.addEventListener('click', function(){
+        pushEvent('footer_link_click', {link_text: el.textContent.trim()});
+      });
+    });
+  }
+
+  /* ── 8. VIDEO ENGAGEMENT ── */
+  var videos = document.querySelectorAll('video');
+  videos.forEach(function(video){
+    var section = video.closest('section');
+    var secId = section ? section.id : 'unknown';
+    var played = false, halfway = false, ended = false;
+
+    // Detectar cuando el video entra en viewport (autoplay visible)
+    if('IntersectionObserver' in window){
+      var vidObs = new IntersectionObserver(function(entries){
+        entries.forEach(function(entry){
+          if(entry.isIntersecting && !played){
+            played = true;
+            pushEvent('video_visible', {video_section: secId});
+          }
+        });
+      }, {threshold: 0.5});
+      vidObs.observe(video);
+    }
+
+    // Progreso del video
+    video.addEventListener('timeupdate', function(){
+      var pct = (video.currentTime / video.duration) * 100;
+      if(pct >= 50 && !halfway){
+        halfway = true;
+        pushEvent('video_50_percent', {video_section: secId});
+      }
+    });
+
+    video.addEventListener('ended', function(){
+      if(!ended){
+        ended = true;
+        pushEvent('video_complete', {video_section: secId});
+      }
+    });
+
+    // Pause manual (excluir autoplay pause por tab switch)
+    video.addEventListener('pause', function(){
+      if(video.currentTime > 0 && !video.ended){
+        pushEvent('video_pause', {
+          video_section: secId,
+          video_percent: Math.round((video.currentTime / video.duration) * 100)
+        });
+      }
+    });
+  });
+
+  /* ── 9. SCROLL DEPTH ── */
+  var scrollFired = {};
+  var thresholds = [25, 50, 75, 90];
+  window.addEventListener('scroll', function(){
+    var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    if(docHeight <= 0) return;
+    var pct = Math.round((scrollTop / docHeight) * 100);
+    thresholds.forEach(function(t){
+      if(pct >= t && !scrollFired[t]){
+        scrollFired[t] = true;
+        pushEvent('scroll_depth', {scroll_percent: t});
+      }
+    });
+  });
+
+  /* ── 10. OUTBOUND LINK CLICKS ── */
+  document.addEventListener('click', function(e){
+    var link = e.target.closest('a[href]');
+    if(!link) return;
+    var href = link.getAttribute('href');
+    if(href && href.indexOf('http') === 0 && href.indexOf(window.location.hostname) === -1){
+      pushEvent('outbound_link_click', {
+        outbound_url: href,
+        link_text: link.textContent.trim().substring(0, 50)
+      });
+    }
+  });
+
+  /* ── 11. PAGE LOAD TIME ── */
+  window.addEventListener('load', function(){
+    setTimeout(function(){
+      if(window.performance && performance.timing){
+        var loadTime = performance.timing.loadEventEnd - performance.timing.navigationStart;
+        pushEvent('page_load_time', {load_time_ms: loadTime});
+      }
+    }, 0);
+  });
+
+  /* ── 12. VISIBILIDAD DE SECCIONES (scroll) ── */
+  var sections = [
+    'hero','servicios','marcas-t1','tarifas',
+    'reportes','seguir','recarga','servicios-finales',
+    'clientes','faq','footer-cta'
+  ];
+  var seen = {};
+
+  if('IntersectionObserver' in window){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting && !seen[entry.target.id]){
+          seen[entry.target.id] = true;
+          pushEvent('section_view', {section_id: entry.target.id});
+        }
+      });
+    }, {threshold: 0.5});
+
+    sections.forEach(function(id){
+      var el = document.getElementById(id);
+      if(el) obs.observe(el);
+    });
+  }
+
+})();
+</script>
+<!-- ====== End GA4 dataLayer Events ====== -->
+
 </body>
 </html>
