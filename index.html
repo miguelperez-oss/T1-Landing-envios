@@ -1,13 +1,127 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-MX">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>T1envíos — Todos tus envíos. Un solo lugar.</title>
+<title>T1envíos — Cotiza y envía paquetes con las mejores tarifas | UPS, FedEx, DHL</title>
+<meta name="description" content="Cotiza, compara y envía paquetes con UPS, FedEx, DHL, 99minutos y más desde un solo lugar. +40 millones de envíos entregados. Regístrate gratis y ahorra en cada envío."/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://envios.t1paginas.com/"/>
+
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:locale" content="es_MX"/>
+<meta property="og:site_name" content="T1envíos"/>
+<meta property="og:title" content="T1envíos — Cotiza y envía paquetes con las mejores tarifas"/>
+<meta property="og:description" content="Cotiza, compara y envía con UPS, FedEx, DHL y más desde un solo lugar. +40 millones de envíos entregados. Regístrate gratis."/>
+<meta property="og:url" content="https://envios.t1paginas.com/"/>
+<meta property="og:image" content="https://envios.t1paginas.com/assets/og-image.png"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="T1envíos — Cotiza y envía paquetes con las mejores tarifas"/>
+<meta name="twitter:description" content="Cotiza, compara y envía con UPS, FedEx, DHL y más desde un solo lugar. +40 millones de envíos entregados."/>
+<meta name="twitter:image" content="https://envios.t1paginas.com/assets/og-image.png"/>
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/logos-t1/favicon.svg"/>
+<link rel="apple-touch-icon" href="assets/logos-t1/apple-touch-icon.png"/>
+
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="styles.css"/>
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "T1envíos",
+  "url": "https://envios.t1paginas.com",
+  "logo": "https://envios.t1paginas.com/assets/logos-t1/t1envios-logo.svg",
+  "description": "Plataforma logística para cotizar, comparar y enviar paquetes con las mejores tarifas en México.",
+  "sameAs": [
+    "https://www.linkedin.com/company/t1paginas",
+    "https://www.instagram.com/t1paginas",
+    "https://www.facebook.com/t1paginas",
+    "https://www.tiktok.com/@t1paginas"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": "Spanish"
+  }
+}
+</script>
+
+<!-- JSON-LD: FAQPage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Qué es T1 Envíos y cómo funciona?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "T1 Envíos es una plataforma para cotizar, comparar y enviar desde un solo lugar con paqueterías líderes y tarifas competitivas. En minutos creas tu cuenta y puedes administrar toda tu operación: guías, recolecciones, seguimiento, incidencias y reportes."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Necesito tener una tienda en línea para usar T1 Envíos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Puedes usar T1 Envíos aunque vendas desde tienda física, por WhatsApp, Instagram o marketplaces. Y si ya tienes tienda en línea, también puedes integrarlo para centralizar tus envíos."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Con qué paqueterías puedo enviar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "T1 Envíos se conecta con paqueterías líderes para que compares tarifas y tiempos de entrega desde el mismo panel: UPS, DHL, FedEx, 99minutos y ampm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué información necesito para cotizar un envío?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Solo necesitas: código postal de origen, código postal de destino, peso y medidas del paquete."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo funciona el pago de mis guías?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Funciona con saldo prepago. Depositas saldo a tu cuenta vía transferencia SPEI o tarjeta de crédito/débito. El saldo no tiene vigencia y se va descontando conforme compras guías."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Dónde entrego mis paquetes?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del servicio y la paquetería. Puedes entregar tu paquete en la sucursal más cercana o, si está disponible, solicitar recolección a domicilio con la paquetería."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo facturar mis envíos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Puedes solicitar tu factura desde tu cuenta con tus datos fiscales."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -17,8 +131,8 @@
 <!-- HEADER -->
 <header id="site-header">
   <div class="header-inner">
-    <a href="#" class="header-logo">
-      <svg width="137" height="42" viewBox="0 0 137 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <a href="#" class="header-logo" aria-label="T1envíos - Inicio">
+      <svg width="137" height="42" role="img" aria-label="Logo T1envíos" viewBox="0 0 137 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_266_2475-s1)">
 <g clip-path="url(#clip1_266_2475-s1)">
 <path d="M26.9684 18.6174H30.6027C30.7408 18.6174 30.8328 18.6174 30.9248 18.7094C30.9248 18.7094 30.9248 18.7094 30.9248 18.7554V36.7433C30.9248 37.5253 31.6609 38.0774 32.4429 37.8474C34.1451 37.1573 36.3533 36.2832 37.9635 35.5471C38.2395 35.4091 38.6076 35.2711 38.6076 34.7191V18.7554C38.6076 18.7554 38.6076 18.7094 38.6076 18.6634C38.6076 18.6174 38.6076 18.6174 38.6076 18.6174V7.66831C38.6076 7.02424 38.1015 6.51819 37.4574 6.51819H34.7432C34.2371 6.51819 33.8231 6.84022 33.6391 7.30027C32.5349 10.3826 30.4187 12.6828 27.2444 13.2349C24.0701 13.7869 26.9684 13.2809 26.7844 13.2809C26.1863 13.3729 25.7723 13.8329 25.7723 14.431V17.4213C25.7723 18.0654 26.2783 18.5714 26.9224 18.5714L26.9684 18.6174Z" fill="#D93A26"/>
@@ -94,7 +208,7 @@
 
             <!-- UPS — 0° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#fff">
+              <div class="halo-logo" style="background:#fff" role="img" aria-label="UPS">
                 <svg id="Layer_2-ho1" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -114,7 +228,7 @@
 
             <!-- FedEx — 60° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#fff">
+              <div class="halo-logo" style="background:#fff" role="img" aria-label="FedEx">
                 <svg id="Layer_2-ho2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -134,7 +248,7 @@
 
             <!-- DHL — 120° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#FFCB01">
+              <div class="halo-logo" style="background:#FFCB01" role="img" aria-label="DHL">
                 <svg id="Layer_2-ho3" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -151,7 +265,7 @@
 
             <!-- AMPM — 180° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#fff">
+              <div class="halo-logo" style="background:#fff" role="img" aria-label="AMPM">
                 <svg id="Layer_2-ho4" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -195,7 +309,7 @@
 
             <!-- 99min — 240° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#3E3F3C">
+              <div class="halo-logo" style="background:#3E3F3C" role="img" aria-label="99 Minutos">
                 <svg id="Layer_2-ho5" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -211,7 +325,7 @@
 
             <!-- J&T — 300° -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#E8261F">
+              <div class="halo-logo" style="background:#E8261F" role="img" aria-label="J&T Express">
                 <svg id="Layer_2-ho6" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <defs>
     </defs>
@@ -236,7 +350,7 @@
 
             <!-- En Camino (Express) — 300° equiv extra slot -->
             <div class="halo-logo-wrap">
-              <div class="halo-logo" style="background:#002a52">
+              <div class="halo-logo" style="background:#002a52" role="img" aria-label="Estafeta">
                 <svg id="Layer_2-ho7" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 346.54 346.54" width="64" height="64">
   <g id="Layer_1-2-ho7" data-name="Layer 1">
     <circle fill="#002a52" cx="173.27" cy="173.27" r="173.27"/>
@@ -633,22 +747,22 @@
   </div>
   <div class="clientes-carousel-wrapper" data-animate>
     <div class="clientes-track" id="clientes-track">
-      <div class="cliente-card" style="background-image:url('assets/clientes/Rebook.jpg')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Reebok01.svg" alt="Reebok" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+300% en ventas anuales</div><p class="cliente-desc">Reebok redujo 45% sus costos logísticos al integrar T1envíos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/BZPAY.jpg')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Bzpay01.svg" alt="BZPAY" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500k transacciones evaluadas</div><p class="cliente-desc">BZPAY mejoró su sistema de prevención de fraudes con T1score.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Pase.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Pase01.svg" alt="PASE" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500k transacciones evaluadas al mes</div><p class="cliente-desc">PASE optimiza su operación con T1score.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/ChicosOle.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Chicosole01.svg" alt="Chicos Olé" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+65% en ventas ecommerce</div><p class="cliente-desc">Chicos Olé escaló su ecommerce con T1tienda.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Tekknoshop.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Tekknoshop01.svg" alt="Tekknoshop" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+7,000 pedidos sincronizados</div><p class="cliente-desc">Tekknoshop atiende pedidos 60% más rápido con T1tienda.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Mercadazo.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Mercadazo01.svg" alt="Mercadazo" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500 vendedores integrados</div><p class="cliente-desc">Mercadazo optimizó su logística con T1envíos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Doto.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Doto01.svg" alt="Doto" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+300% crecimiento anual</div><p class="cliente-desc">Doto escaló su ecommerce con T1envíos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Fila.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Fila01.svg" alt="FILA" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">-45% en tiempos de procesamiento</div><p class="cliente-desc">FILA optimizó su logística con T1envíos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Sanborns.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sanborns01.svg" alt="Sanborns" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+85% aprobación en pagos</div><p class="cliente-desc">Sanborns redujo contracargos a 0.3% con T1score.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Ticketpolis.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Ticketopolis_1.svg" alt="Ticketopolis" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">99% de aprobación antifraude</div><p class="cliente-desc">Ticketopolis asegura sus pagos con T1score.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/CruzAzul.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Cruzazul01.svg" alt="Cruz Azul" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+50,000 ventas integradas</div><p class="cliente-desc">Cruz Azul integró toda su operación con T1.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Decohome.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Decohome01.svg" alt="DecoHome" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+200 SKUs publicados en 6 canales</div><p class="cliente-desc">DecoHome gestiona su operación como un equipo 10x más grande.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Sensen.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sesen01.svg" alt="Sesén" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+280% visitas en tienda</div><p class="cliente-desc">Sesén escaló su ecommerce con T1tienda.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Sears.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sears01.svg" alt="SEARS" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+90% aprobación en pagos</div><p class="cliente-desc">Sears potencia su operación con T1pagos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Telcel.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Telcel01.svg" alt="Telcel" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+15% en recargas autorizadas</div><p class="cliente-desc">Telcel optimizó sus canales digitales con T1pagos.</p></div></div>
-      <div class="cliente-card" style="background-image:url('assets/clientes/Pirma.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Pirma01.svg" alt="PIRMA" class="cliente-logo-img"></div><div class="cliente-text-wrap"><div class="cliente-stat">+40% entregas exitosas</div><p class="cliente-desc">Pirma agilizó su distribución con T1envíos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Rebook.jpg')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Reebok01.svg" alt="Reebok" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+300% en ventas anuales</div><p class="cliente-desc">Reebok redujo 45% sus costos logísticos al integrar T1envíos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/BZPAY.jpg')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Bzpay01.svg" alt="BZPAY" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500k transacciones evaluadas</div><p class="cliente-desc">BZPAY mejoró su sistema de prevención de fraudes con T1score.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Pase.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Pase01.svg" alt="PASE" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500k transacciones evaluadas al mes</div><p class="cliente-desc">PASE optimiza su operación con T1score.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/ChicosOle.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Chicosole01.svg" alt="Chicos Olé" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+65% en ventas ecommerce</div><p class="cliente-desc">Chicos Olé escaló su ecommerce con T1tienda.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Tekknoshop.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Tekknoshop01.svg" alt="Tekknoshop" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+7,000 pedidos sincronizados</div><p class="cliente-desc">Tekknoshop atiende pedidos 60% más rápido con T1tienda.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Mercadazo.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Mercadazo01.svg" alt="Mercadazo" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+500 vendedores integrados</div><p class="cliente-desc">Mercadazo optimizó su logística con T1envíos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Doto.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Doto01.svg" alt="Doto" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+300% crecimiento anual</div><p class="cliente-desc">Doto escaló su ecommerce con T1envíos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Fila.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Fila01.svg" alt="FILA" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">-45% en tiempos de procesamiento</div><p class="cliente-desc">FILA optimizó su logística con T1envíos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Sanborns.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sanborns01.svg" alt="Sanborns" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+85% aprobación en pagos</div><p class="cliente-desc">Sanborns redujo contracargos a 0.3% con T1score.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Ticketpolis.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Ticketopolis_1.svg" alt="Ticketopolis" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">99% de aprobación antifraude</div><p class="cliente-desc">Ticketopolis asegura sus pagos con T1score.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/CruzAzul.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Cruzazul01.svg" alt="Cruz Azul" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+50,000 ventas integradas</div><p class="cliente-desc">Cruz Azul integró toda su operación con T1.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Decohome.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Decohome01.svg" alt="DecoHome" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+200 SKUs publicados en 6 canales</div><p class="cliente-desc">DecoHome gestiona su operación como un equipo 10x más grande.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Sensen.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sesen01.svg" alt="Sesén" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+280% visitas en tienda</div><p class="cliente-desc">Sesén escaló su ecommerce con T1tienda.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Sears.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Sears01.svg" alt="SEARS" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+90% aprobación en pagos</div><p class="cliente-desc">Sears potencia su operación con T1pagos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Telcel.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Telcel01.svg" alt="Telcel" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+15% en recargas autorizadas</div><p class="cliente-desc">Telcel optimizó sus canales digitales con T1pagos.</p></div></div>
+      <div class="cliente-card" style="background-image:url('assets/clientes/Pirma.png')"><div class="cliente-card-logo"><img src="assets/Logos usan T1/Cuadros/Pirma01.svg" alt="PIRMA" class="cliente-logo-img" loading="lazy"></div><div class="cliente-text-wrap"><div class="cliente-stat">+40% entregas exitosas</div><p class="cliente-desc">Pirma agilizó su distribución con T1envíos.</p></div></div>
     </div>
   </div>
   <!-- Nav: botones izquierda + dots centrados -->
@@ -850,7 +964,7 @@
         <a href="#">Términos y condiciones</a>
         <a href="#">Privacidad</a>
       </div>
-      <p>© 2025 T1. Todos los derechos reservados.</p>
+      <p>© 2026 T1. Todos los derechos reservados.</p>
     </div>
   </div>
 </footer>

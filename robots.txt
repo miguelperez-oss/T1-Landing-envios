@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://envios.t1paginas.com/sitemap.xml
