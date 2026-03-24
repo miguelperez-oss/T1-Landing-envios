@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>T1envíos Landing Page — Resumen de Estructura</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;color:#1a1a1a;line-height:1.6;padding:40px;max-width:900px;margin:0 auto;font-size:14px}
+  h1{font-size:28px;font-weight:700;margin-bottom:4px;color:#E26153}
+  .subtitle{font-size:14px;color:#888;margin-bottom:32px}
+  h2{font-size:20px;font-weight:700;margin-top:36px;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #E26153;color:#1a1a1a}
+  h3{font-size:16px;font-weight:600;margin-top:24px;margin-bottom:10px;color:#333}
+  table{width:100%;border-collapse:collapse;margin-bottom:20px;font-size:13px}
+  th{background:#E26153;color:#fff;text-align:left;padding:8px 12px;font-weight:600}
+  td{padding:8px 12px;border-bottom:1px solid #e5e5e5}
+  tr:nth-child(even){background:#faf5f4}
+  .badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:600}
+  .badge-cta{background:#fdecea;color:#E26153}
+  .badge-nav{background:#e8f4fd;color:#2563eb}
+  .badge-interaction{background:#f0fdf4;color:#16a34a}
+  .badge-social{background:#f3e8ff;color:#7c3aed}
+  .badge-section{background:#fef9c3;color:#a16207}
+  .spec-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+  .spec-card{background:#f9f9f9;border-radius:12px;padding:16px;border:1px solid #eee}
+  .spec-card h4{font-size:13px;color:#888;margin-bottom:4px;font-weight:500}
+  .spec-card p{font-size:15px;font-weight:600;color:#1a1a1a}
+  .section-flow{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+  .section-item{display:flex;align-items:center;gap:12px;padding:10px 16px;background:#f9f9f9;border-radius:10px;border-left:3px solid #E26153}
+  .section-num{font-weight:700;color:#E26153;min-width:24px}
+  .section-name{font-weight:600}
+  .section-id{color:#888;font-size:12px;margin-left:auto;font-family:monospace}
+  .note{background:#fef9c3;border-left:3px solid #eab308;padding:12px 16px;border-radius:0 8px 8px 0;margin:16px 0;font-size:13px}
+  .status{display:flex;align-items:center;gap:8px;padding:12px 16px;border-radius:10px;margin-bottom:8px}
+  .status-red{background:#fdecea;border:1px solid #f5c5be}
+  .status-green{background:#f0fdf4;border:1px solid #bbf7d0}
+  .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+  .dot-red{background:#E26153}
+  .dot-green{background:#16a34a}
+  .footer-doc{margin-top:40px;padding-top:20px;border-top:1px solid #ddd;color:#888;font-size:12px;text-align:center}
+  @media print{
+    body{padding:20px;font-size:12px}
+    h2{page-break-after:avoid}
+    table{page-break-inside:avoid}
+    .section-flow{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<h1>T1envíos — Landing Page</h1>
+<p class="subtitle">Resumen de estructura, elementos interactivos y estado actual &bull; Generado: 24 marzo 2026</p>
+
+<!-- ============ DESIGN SYSTEM ============ -->
+<h2>Sistema de Diseno</h2>
+<div class="spec-grid">
+  <div class="spec-card">
+    <h4>Tipografia</h4>
+    <p>Sora (300, 400) + Inter (300–600)</p>
+  </div>
+  <div class="spec-card">
+    <h4>Color primario</h4>
+    <p style="color:#E26153">#E26153 <span style="display:inline-block;width:14px;height:14px;background:#E26153;border-radius:4px;vertical-align:middle;margin-left:4px"></span></p>
+  </div>
+  <div class="spec-card">
+    <h4>Border radius (cards)</h4>
+    <p>24px</p>
+  </div>
+  <div class="spec-card">
+    <h4>Border radius (botones)</h4>
+    <p>18px</p>
+  </div>
+  <div class="spec-card">
+    <h4>Contenedor max-width</h4>
+    <p>1018px</p>
+  </div>
+  <div class="spec-card">
+    <h4>Boton height</h4>
+    <p>45px</p>
+  </div>
+</div>
+
+<!-- ============ SECCIONES ============ -->
+<h2>Estructura de Secciones (13)</h2>
+<div class="section-flow">
+  <div class="section-item"><span class="section-num">1</span><span class="section-name">Header</span><span style="color:#666;font-size:12px;margin-left:8px">Nav fijo, glass effect, logo T1envios</span><span class="section-id">—</span></div>
+  <div class="section-item"><span class="section-num">2</span><span class="section-name">Hero</span><span style="color:#666;font-size:12px;margin-left:8px">Titulo + video animacion + logos paqueterias</span><span class="section-id">#hero</span></div>
+  <div class="section-item"><span class="section-num">3</span><span class="section-name">Marcas Marquee</span><span style="color:#666;font-size:12px;margin-left:8px">Trust logos animados en grayscale</span><span class="section-id">#marcas</span></div>
+  <div class="section-item"><span class="section-num">4</span><span class="section-name">Servicios Cards</span><span style="color:#666;font-size:12px;margin-left:8px">3 cards: Cotiza, Envia, Seguimiento</span><span class="section-id">#servicios</span></div>
+  <div class="section-item"><span class="section-num">5</span><span class="section-name">Integra Canales</span><span style="color:#666;font-size:12px;margin-left:8px">Logos flotantes de marketplaces</span><span class="section-id">#marcas-t1</span></div>
+  <div class="section-item"><span class="section-num">6</span><span class="section-name">Tarifas</span><span style="color:#666;font-size:12px;margin-left:8px">Tabs con cotizador animado (3 slides)</span><span class="section-id">#tarifas</span></div>
+  <div class="section-item"><span class="section-num">7</span><span class="section-name">Reportes</span><span style="color:#666;font-size:12px;margin-left:8px">Auto-fade entre pantallas analytics</span><span class="section-id">#reportes</span></div>
+  <div class="section-item"><span class="section-num">8</span><span class="section-name">Seguimiento</span><span style="color:#666;font-size:12px;margin-left:8px">Scroll animation vertical</span><span class="section-id">#seguir</span></div>
+  <div class="section-item"><span class="section-num">9</span><span class="section-name">Recargas</span><span style="color:#666;font-size:12px;margin-left:8px">Scroll animation recarga de saldo</span><span class="section-id">#recarga</span></div>
+  <div class="section-item"><span class="section-num">10</span><span class="section-name">Ecosistema T1</span><span style="color:#666;font-size:12px;margin-left:8px">T1Tienda, T1Pagos, T1Envios cards</span><span class="section-id">#servicios-finales</span></div>
+  <div class="section-item"><span class="section-num">11</span><span class="section-name">Clientes</span><span style="color:#666;font-size:12px;margin-left:8px">Carrusel 17 casos de exito</span><span class="section-id">#clientes</span></div>
+  <div class="section-item"><span class="section-num">12</span><span class="section-name">FAQ</span><span style="color:#666;font-size:12px;margin-left:8px">Accordion 7-8 preguntas</span><span class="section-id">#faq</span></div>
+  <div class="section-item"><span class="section-num">13</span><span class="section-name">Footer</span><span style="color:#666;font-size:12px;margin-left:8px">CTA final + links + redes sociales</span><span class="section-id">#footer-cta</span></div>
+</div>
+
+<!-- ============ CTAs ============ -->
+<h2>CTAs Principales (12)</h2>
+<table>
+  <tr><th>Texto (ES)</th><th>Texto (EN)</th><th>Seccion</th><th>Clase CSS</th></tr>
+  <tr><td>Comenzar gratis</td><td>Get started free</td><td>Header</td><td><code>btn-primary header-cta</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Mobile Menu</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Hero</td><td><code>hero-cta-btn</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Integra canales</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Cotizar ahora</td><td>Get a quote</td><td>Tarifas</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Reportes</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Seguimiento</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Comenzar ahora</td><td>Get started</td><td>Recargas</td><td><code>btn-primary</code></td></tr>
+  <tr><td>Crear mi tienda</td><td>Create my store</td><td>Ecosistema — T1Tienda</td><td><code>sf-cta</code></td></tr>
+  <tr><td>Crear link de pago</td><td>Create a payment link</td><td>Ecosistema — T1Pagos</td><td><code>sf-cta</code></td></tr>
+  <tr><td>Cotizar envio</td><td>Get a quote</td><td>Ecosistema — T1Envios</td><td><code>sf-cta</code></td></tr>
+  <tr><td>Comienza ahora</td><td>Get started now</td><td>Footer CTA</td><td><code>btn-primary</code></td></tr>
+</table>
+
+<!-- ============ CARD LINKS ============ -->
+<h2>Card Links Secundarios (3)</h2>
+<table>
+  <tr><th>Texto (ES)</th><th>Texto (EN)</th><th>Seccion</th><th>Clase CSS</th></tr>
+  <tr><td>Cotiza ahora &rarr;</td><td>Quote now</td><td>Card Cotiza</td><td><code>card-link</code></td></tr>
+  <tr><td>Realiza un envio &rarr;</td><td>Create a shipment</td><td>Card Envia</td><td><code>card-link</code></td></tr>
+  <tr><td>Rastrea un envio &rarr;</td><td>Track a shipment</td><td>Card Seguimiento</td><td><code>card-link</code></td></tr>
+</table>
+
+<!-- ============ NAVEGACION ============ -->
+<h2>Navegacion</h2>
+<h3>Header (Desktop + Mobile)</h3>
+<table>
+  <tr><th>Texto (ES)</th><th>Texto (EN)</th><th>href</th><th>Clase CSS</th></tr>
+  <tr><td>Logo T1envios</td><td>Logo T1envios</td><td>#</td><td><code>header-logo</code></td></tr>
+  <tr><td>Ecosistema</td><td>Ecosystem</td><td>#</td><td><code>header-nav-link</code></td></tr>
+  <tr><td>Que es T1?</td><td>What is T1?</td><td>#servicios-finales</td><td><code>header-nav-link</code></td></tr>
+  <tr><td>Iniciar sesion</td><td>Log in</td><td>#</td><td><code>header-login</code></td></tr>
+</table>
+
+<h3>Footer Links</h3>
+<table>
+  <tr><th>Columna</th><th>Texto (ES)</th><th>Texto (EN)</th><th>href</th></tr>
+  <tr><td>Soluciones</td><td>T1tienda</td><td>T1 Store</td><td>#</td></tr>
+  <tr><td>Soluciones</td><td>T1pagos</td><td>T1 Payments</td><td>#</td></tr>
+  <tr><td>Soluciones</td><td>T1envios</td><td>T1 Shipping</td><td>#</td></tr>
+  <tr><td>Soluciones</td><td>T1score</td><td>T1score</td><td>#</td></tr>
+  <tr><td>T1</td><td>Que es T1?</td><td>What is T1?</td><td>#</td></tr>
+  <tr><td>T1</td><td>Carreras</td><td>Careers</td><td>#</td></tr>
+  <tr><td>T1</td><td>Prensa</td><td>Press</td><td>#</td></tr>
+  <tr><td>T1</td><td>Contacto</td><td>Contact</td><td>#</td></tr>
+  <tr><td>Legal</td><td>Terminos y condiciones</td><td>Terms and conditions</td><td>#</td></tr>
+  <tr><td>Legal</td><td>Privacidad</td><td>Privacy policy</td><td>#</td></tr>
+</table>
+
+<!-- ============ INTERACCIONES ============ -->
+<h2>Componentes Interactivos (5)</h2>
+<table>
+  <tr><th>Componente</th><th>Tipo</th><th>Selector CSS</th><th>Comportamiento</th></tr>
+  <tr><td>FAQ Accordion</td><td>Toggle</td><td><code>.faq-question</code></td><td>7-8 preguntas expandibles con onclick</td></tr>
+  <tr><td>Tabs Tarifas</td><td>Auto-rotate</td><td><code>.slide-tab</code></td><td>3 slides, rota cada 4s</td></tr>
+  <tr><td>Tabs Reportes</td><td>Auto-fade</td><td><code>.fade-screen</code></td><td>2 pantallas, rota cada 5s</td></tr>
+  <tr><td>Carousel Recargas</td><td>Auto-rotate</td><td><code>[id^="rc-"]</code></td><td>3 pasos, rota cada 3s</td></tr>
+  <tr><td>Carousel Clientes</td><td>Drag + botones</td><td><code>#clientes-track</code></td><td>17 cards, drag-to-scroll + dots</td></tr>
+</table>
+
+<!-- ============ REDES SOCIALES ============ -->
+<h2>Redes Sociales (5)</h2>
+<table>
+  <tr><th>Red</th><th>Clase CSS</th><th>href actual</th></tr>
+  <tr><td>LinkedIn</td><td><code>social-btn</code></td><td>#</td></tr>
+  <tr><td>Instagram</td><td><code>social-btn</code></td><td>#</td></tr>
+  <tr><td>X (Twitter)</td><td><code>social-btn</code></td><td>#</td></tr>
+  <tr><td>Facebook</td><td><code>social-btn</code></td><td>#</td></tr>
+  <tr><td>TikTok</td><td><code>social-btn</code></td><td>#</td></tr>
+</table>
+
+<!-- ============ SCROLL ANIMATIONS ============ -->
+<h2>Secciones con Scroll Animation (12)</h2>
+<p style="margin-bottom:12px;color:#666">Todas usan <code>IntersectionObserver</code> con threshold 0.15 y atributo <code>data-animate</code></p>
+<table>
+  <tr><th>#</th><th>Seccion</th><th>ID</th></tr>
+  <tr><td>1</td><td>Hero</td><td><code>#hero</code></td></tr>
+  <tr><td>2</td><td>Marcas Marquee</td><td><code>#marcas</code></td></tr>
+  <tr><td>3</td><td>Servicios Cards</td><td><code>#servicios</code></td></tr>
+  <tr><td>4</td><td>Integra Canales</td><td><code>#marcas-t1</code></td></tr>
+  <tr><td>5</td><td>Tarifas</td><td><code>#tarifas</code></td></tr>
+  <tr><td>6</td><td>Reportes</td><td><code>#reportes</code></td></tr>
+  <tr><td>7</td><td>Seguimiento</td><td><code>#seguir</code></td></tr>
+  <tr><td>8</td><td>Recargas</td><td><code>#recarga</code></td></tr>
+  <tr><td>9</td><td>Ecosistema T1</td><td><code>#servicios-finales</code></td></tr>
+  <tr><td>10</td><td>Clientes</td><td><code>#clientes</code></td></tr>
+  <tr><td>11</td><td>FAQ</td><td><code>#faq</code></td></tr>
+  <tr><td>12</td><td>Footer CTA</td><td><code>#footer-cta</code></td></tr>
+</table>
+
+<!-- ============ ESTADO ============ -->
+<h2>Estado Actual</h2>
+
+<h3>Analytics / Tracking</h3>
+<div class="status status-red"><span class="dot dot-red"></span><strong>Sin tracking instalado</strong> — No hay GTM, Google Analytics, ni pixeles (Meta, LinkedIn)</div>
+
+<h3>URLs</h3>
+<div class="status status-red"><span class="dot dot-red"></span><strong>Todos los hrefs son #</strong> — Pendiente asignar URLs reales a CTAs, navegacion y redes sociales</div>
+
+<h3>Versiones</h3>
+<div class="status status-green"><span class="dot dot-green"></span><strong>2 versiones:</strong> index.html (Espanol) + index-english-us.html (Ingles)</div>
+<div class="status status-green"><span class="dot dot-green"></span><strong>CSS compartido:</strong> Ambas usan styles.css</div>
+
+<h3>Videos</h3>
+<div class="status status-green"><span class="dot dot-green"></span><strong>Hero:</strong> Animacion Hero_1.mp4</div>
+<div class="status status-green"><span class="dot dot-green"></span><strong>Tarifas:</strong> Video 1.webm</div>
+<div class="status status-green"><span class="dot dot-green"></span><strong>Reportes:</strong> Video 2.webm</div>
+<div class="status status-green"><span class="dot dot-green"></span><strong>Seguimiento:</strong> Video 3 (1080x720).webm</div>
+<div class="status status-green"><span class="dot dot-green"></span><strong>Recargas:</strong> Video 4 (1080x720).webm</div>
+
+<div class="note">
+  <strong>Nota:</strong> El HTML pesa ~335KB (SVGs + base64 embebidos). Chrome trunca el DOM via <code>file://</code>. Usar <code>python3 -m http.server 8080</code> para previsualizar.
+</div>
+
+<!-- ============ PENDIENTES ============ -->
+<h2>Pendientes</h2>
+<table>
+  <tr><th>Tarea</th><th>Estado</th></tr>
+  <tr><td>Responsive mobile de todas las secciones</td><td>En progreso</td></tr>
+  <tr><td>Asignar URLs reales a todos los CTAs y links</td><td>Pendiente</td></tr>
+  <tr><td>Instalar GTM + Google Analytics</td><td>Pendiente</td></tr>
+  <tr><td>Imagenes reales para Reportes, Seguimiento, Recargas</td><td>Reemplazado con videos</td></tr>
+  <tr><td>Seccion #marcas-t1 responsive mobile</td><td>Pendiente</td></tr>
+  <tr><td>Links de redes sociales reales</td><td>Pendiente</td></tr>
+</table>
+
+<div class="footer-doc">
+  T1envios Landing Page &mdash; Documento generado el 24 de marzo de 2026<br>
+  Archivos: index.html &bull; index-english-us.html &bull; styles.css
+</div>
+
+</body>
+</html>
